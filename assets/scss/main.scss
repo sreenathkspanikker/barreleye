@@ -1,0 +1,21 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+// UTILS
+@import './utils/variables',
+'./utils/mixins';
+
+// CORE
+@import './core/normalize';
+
+// COMPONENTS
+@import './components/button',
+        './components/header',
+        './components/title',
+        './components/footer',
+        './components/section',
+        './components/mainframe';
+
+// PAGES
+@import './page/home';
