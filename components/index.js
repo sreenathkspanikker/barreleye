@@ -1,4 +1,4 @@
-export * from './Title'
+export * from './title'
 export * from './footer'
 export * from './layout'
 export * from './header'
