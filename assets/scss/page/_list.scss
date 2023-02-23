@@ -1,0 +1,38 @@
+.PageList{
+    .figure{
+        position: relative;
+        margin-bottom: 30px;
+        overflow: hidden;
+        cursor: pointer;
+        .figure-img{
+            margin: 0;
+            transition: all ease 0.4s;
+        }
+        .figure-caption{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            padding: 0.5rem;
+            width: 85%;
+            text-align: center;
+            font-size: 18px;
+            color: white;
+            height: fit-content;
+            border-radius: 2px;
+            transition: all ease 0.4s;
+            background-color: rgba($secondary_color, 0.8);
+        }
+        &:hover{
+            .figure-img{
+                transform: scale(1.04);
+            }
+            .figure-caption{
+                background-color: white;
+                color: $secondary_color;
+            }
+        }
+    }
+}

@@ -1,6 +1,9 @@
 .btn{
     outline: none;
     border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     &.btn-primary{
         width: 225px;
         height: 60px;

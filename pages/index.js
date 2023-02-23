@@ -1,13 +1,13 @@
 
 import { Row, Col } from 'react-bootstrap'
-import { Section, Title, CourseSlider, MarchandiseSlider } from '../components'
+import { Section, Title, CourseSlider, ClientSlider, MarchandiseSlider } from '../components'
 
 export default function Home() {
 
   return (
     <>
       {/* Why Barreleye */}
-      <Section className="section-about">
+      <Section className="section-about" id="about">
         <Row className="justify-content-md-center">
           <Col md={10}>
             <Title title="Why Barreleye ?" />
@@ -35,6 +35,20 @@ export default function Home() {
         />
 
         <MarchandiseSlider />
+      </Section>
+
+      {/* Marchindise */}
+      <Section className="section-clients">
+        <Title
+          title="Clients"
+          subTitle="Lörem ipsum diasam hotörade påsm trinetik. Pårad soligt, kosam diren båskapet bel. Syngen skimma manas vattkoppsgodis, och disamma, oaktat plad mobilzombie. Trininar sper eller mikror även om dekanade konnetik. Supranyvinaen."
+        />
+        
+        <Row className="justify-content-md-center">
+          <Col md={10}>
+            <ClientSlider />
+          </Col>
+        </Row>
       </Section>
     </>
   )
