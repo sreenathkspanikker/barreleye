@@ -1,25 +1,11 @@
 .app-footer {
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     background-color: $primary_color;
     .container {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
         p {
-            font-size: 16px;
+            text-align: center;
+            font-size: 12px;
             color: white;
-        }
-        .nav{
-            .nav-item{
-                .nav-link{
-                    @extend p;
-                    margin: 0;
-                    &:hover{
-                        opacity: 0.5;
-                    }
-                }
-            }
         }
     }
 }

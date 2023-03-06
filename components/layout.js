@@ -1,5 +1,6 @@
 import Head from 'next/head';
-import { Header, Mainframe, Footer } from './'
+import { WelcomeModal } from '../modules'
+import { Header, Mainframe, Footer, WhatsApp } from './'
 
 export const Layout = ({ children, Component }) => {
     return (
@@ -16,6 +17,8 @@ export const Layout = ({ children, Component }) => {
                     {children}
                 </div>
                 <Footer />
+                <WhatsApp />
+                <WelcomeModal />
             </main>
         </>
     )

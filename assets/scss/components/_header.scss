@@ -3,7 +3,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 999;
+    z-index: 8;
     transition: all ease .4s;
 
     .navbar {
@@ -31,8 +31,21 @@
                 }
 
                 &.nav-social{
+                    align-items: center;
                     .nav-link {
                         padding: 0 1rem;
+                        i {
+                            display: inline-block;
+                            &.icon-facebook{
+
+                            }
+                            &.icon-linkedin{
+                                font-size: 22px;
+                            }
+                            &.icon-youtube{
+                                font-size: 16px;
+                            }
+                        }
                     }
                 }
 

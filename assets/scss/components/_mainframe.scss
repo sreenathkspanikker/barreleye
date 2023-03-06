@@ -4,6 +4,17 @@
     overflow: hidden;
     background: $default_gradient;
     position: relative;
+    &::before{
+        content: '';
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        background: $default_gradient;
+    }
     .brand-title{
         width: fit-content;
         background-color: white;
@@ -15,17 +26,31 @@
         color: $primary_color;
     }
 
+    .mainframe-title{
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 48px;
+        color: white;
+        margin-bottom: 3rem;
+    }
+
     .container{
         align-items: end;
         justify-content: center;
         position: relative;
         height: 100%;
-        .mainframe-title{
+        z-index: 2;
+        h3{
             font-family: 'Roboto';
             font-weight: 700;
             font-size: 48px;
             color: white;
-            margin-bottom: 3rem;
+            margin-bottom: 1rem;
+        }
+        p{
+            @extend h3;
+            font-weight: normal;
+            font-size: 18px;
         }
     }
 
@@ -35,6 +60,46 @@
 .Home {
     .app-mainframe{
         height: 100vh;
+        &::before{
+            display: none;
+        }
+        .video-wrap{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            &::before{
+                content: '';
+                display: block;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: 2;
+                background: $default_gradient;
+                opacity: 0.6;
+            }
+            .container{
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                z-index: 3;
+                .contet-box{
+                    max-width: 600px;
+                    position: relative;
+                    z-index: 2;
+                    margin-top: 4rem;
+                }
+            }
+            video{
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+                z-index: 1;
+            }
+        }
         .carousel {
             .carousel-inner{
                 .carousel-item{
@@ -89,4 +154,54 @@
             }
         }
     }
+}
+
+// PAGE LIST
+.PageList{
+    .app-mainframe{
+        background: url('../../images/bg_bachelors.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    } 
+}
+
+// DETAILS
+.Details{
+    .app-mainframe{
+        background: url('../../images/bg_details.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    } 
+}
+
+// DETAILS
+.ApplyNow{
+    .app-mainframe{
+        background: url('../../images/bg_apply.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    } 
+}
+
+// FAQ
+.Faq{
+    .app-mainframe{
+        background: url('../../images/bg_faq.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    } 
+}
+
+// CONATCT
+.Contact{
+    .app-mainframe{
+        background: url('../../images/bg_contact.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    } 
 }

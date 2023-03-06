@@ -1,5 +1,5 @@
 import { Col, Figure, Row } from 'react-bootstrap'
-import Image from 'next/Image';
+import { Fade } from 'react-reveal';
 import Link from 'next/link'
 import { Section } from '../components'
 
@@ -49,10 +49,12 @@ export default function PageList() {
               pathname: '/details',
               query: { slug: idx, title: items.title }}}
             >
+              <Fade bottom  >
               <Figure>
                 <Figure.Image src={items.image} />
                 <Figure.Caption>{items.title}</Figure.Caption>
               </Figure>
+              </Fade>
             </Link>
           </Col>
         ))}

@@ -97,6 +97,7 @@
                 text-align: left;
                 padding-left: 2rem;
                 h4{
+                    font-size: 36px;
                     margin: 1rem 0;
                     color: $secondary_color;
                 }
@@ -104,6 +105,18 @@
 
             .carousel-indicators [data-bs-target]{
                 background-color: #383838;
+            }
+
+            .carousel-control-prev,
+            .carousel-control-next{
+                width: auto;
+                > span{
+                    background-color: $primary_color;
+                }
+            }
+            .carousel-control-next{
+                right: 50%;
+                padding: 0 12px;
             }
         }
 

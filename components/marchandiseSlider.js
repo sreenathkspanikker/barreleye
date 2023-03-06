@@ -1,10 +1,11 @@
+import { Fade } from 'react-reveal';
 import Image from 'next/image'
 import { Carousel, Row, Col, Button, Figure } from 'react-bootstrap';
 import Prod1 from '../assets/images/img_prod_1.png'
 
 export const MarchandiseSlider = () => {
     return (
-        <Carousel interval={100000000} controls={false}>
+        <Carousel interval={100000000} indicators={false}>
             <Carousel.Item>
                 <Row>
                     <Col md={6}>
@@ -14,10 +15,12 @@ export const MarchandiseSlider = () => {
                     </Col>
                     <Col md={6}>
                         <Carousel.Caption>
-                            <h3>Title</h3>
-                            <p>örem ipsum diasam hotörade påsm trinetik. Pårad soligt, kosam diren båskapet bel. Syngen skimma manas vattkoppsgodis, och disamma, oaktat plad mobilzombie. Trininar sper eller mikror även om dekanade konnetik. Supranyvinaen.</p>
-                            <h4>$140</h4>
-                            <Button>Buy</Button>
+                            <Fade bottom  >
+                                <h3>Title</h3>
+                                <p>örem ipsum diasam hotörade påsm trinetik. Pårad soligt, kosam diren båskapet bel. Syngen skimma manas vattkoppsgodis, och disamma, oaktat plad mobilzombie. Trininar sper eller mikror även om dekanade konnetik. Supranyvinaen.</p>
+                                <h4>$140</h4>
+                                <Button>Buy</Button>
+                            </Fade>
                         </Carousel.Caption>
                     </Col>
                 </Row>
@@ -31,10 +34,12 @@ export const MarchandiseSlider = () => {
                     </Col>
                     <Col md={6}>
                         <Carousel.Caption>
-                            <h3>Title</h3>
-                            <p>örem ipsum diasam hotörade påsm trinetik. Pårad soligt, kosam diren båskapet bel. Syngen skimma manas vattkoppsgodis, och disamma, oaktat plad mobilzombie. Trininar sper eller mikror även om dekanade konnetik. Supranyvinaen.</p>
-                            <h4>$140</h4>
-                            <Button>Buy</Button>
+                            <Fade bottom  >
+                                <h3>Title</h3>
+                                <p>örem ipsum diasam hotörade påsm trinetik. Pårad soligt, kosam diren båskapet bel. Syngen skimma manas vattkoppsgodis, och disamma, oaktat plad mobilzombie. Trininar sper eller mikror även om dekanade konnetik. Supranyvinaen.</p>
+                                <h4>$140</h4>
+                                <Button>Buy</Button>
+                            </Fade>
                         </Carousel.Caption>
                     </Col>
                 </Row>

@@ -2,10 +2,10 @@ import Image from 'next/Image';
 import Slider from "react-slick";
 
 // images 
-import Img1 from '../assets/images/ic-client-1.png'
-import Img2 from '../assets/images/ic-client-2.png'
-import Img3 from '../assets/images/ic-client-3.png'
-import Img4 from '../assets/images/ic-client-4.png'
+import Img1 from '../assets/images/img_clIent_1.jpg'
+import Img2 from '../assets/images/img_clIent_2.jpg'
+import Img3 from '../assets/images/img_clIent_3.jpg'
+import Img4 from '../assets/images/img_clIent_4.jpg'
 
 export const ClientSlider = () => {
     var settings = {
@@ -46,10 +46,10 @@ export const ClientSlider = () => {
 
     return (
         <Slider {...settings}>
-            <div><Image src={Img1} /></div>
-            <div><Image src={Img2} /></div>
-            <div><Image src={Img3} /></div>
-            <div><Image src={Img4} /></div>
+            <div><Image src={Img1} className="img-fluid" /></div>
+            <div><Image src={Img2} className="img-fluid" /></div>
+            <div><Image src={Img3} className="img-fluid" /></div>
+            <div><Image src={Img4} className="img-fluid" /></div>
         </Slider>
     )
 }

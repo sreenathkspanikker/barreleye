@@ -1,0 +1,24 @@
+.section-apply-one{
+    .form-wrap{
+        max-width: 80%;
+        margin: 0 auto;
+        .input-group{
+            .dropdown-toggle{
+                border: 1px solid #ced4da;
+            }
+        }
+        .form-label{
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+        .btn{
+            &.btn-primary{
+                display: block;
+                width: 100%;
+                font-size: 22px;
+                height: 50px;
+            }
+        }
+    }
+}
