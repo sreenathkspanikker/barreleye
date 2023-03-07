@@ -14,45 +14,59 @@ import Other from '../utils/jobs/other.json'
 import Bachelors from '../utils/courses/bachelors.json'
 import Masters from '../utils/courses/masters.json'
 import PHD from '../utils/courses/phd.json'
+import PlaceToVisit from '../utils/placeToVistit.json'
 
 export default function PageList() {
   const [data, setData] = useState([]);
+  const [path, setPath] = useState('/details');
   const router = useRouter();
   const { title } = router.query;
 
   useEffect(() => {
-    setData(() => {
+    const fetchData = () => {
       switch (title) {
         case 'IT':
-          return IT
+          setData(IT);
+          break
         case 'Other':
-          return Other
+          setData(Other);
+          break
         case 'Bachelors Program':
-          return Bachelors
+          setData(Bachelors);
+          break
         case 'Masters Program':
-          return Masters
+          setData(Masters);
+          break
         case 'PHD':
-          return PHD
+          setData(PHD);
+          break
+        case 'Places to visit':
+          setData(PlaceToVisit);
+          setPath('/placeToVisit')
+          break
         default:
           break;
       }
-    })
+    }
+    fetchData();
+
   }, [title])
 
 
   return (
     <Section>
+      {console.log({path})}
       <Row>
         {data?.map((items, idx) => (
           <Col sm={4} key={idx}>
             <Link href={{
-              pathname: '/details',
-              query: { slug: idx, title: items.title }
+              pathname: path,
+              query: { slug: items.id, title: items.title }
             }}
             >
               <Fade bottom  >
                 <Figure>
-                  <Image src={require(`../assets/images/${items.image}`)} className="img-fluid" />
+                  <Image src={require(`../assets/images/${items.image}`)} className="img-fluid" alt={`title-${idx}`} />
                   <Figure.Caption>{items.title}</Figure.Caption>
                 </Figure>
               </Fade>

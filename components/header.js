@@ -58,7 +58,6 @@ export const Header = () => {
                             <Nav className="ml-auto">
                                 <NavDropdown title="Courses" id="dropdown-1">
                                     <Link
-                                        as="data-rr-ui-dropdown-item"
                                         className='nav-link'
                                         href={{
                                             pathname: '/list',
@@ -126,13 +125,13 @@ export const Header = () => {
                                     className='nav-link'
                                     href={{
                                         pathname: '/faq',
-                                        query: { slug: 'faq', title: 'FAQ' }
+                                        query: { title: 'FAQ' },
                                     }}>FAQ</Link>
                                 <Link
                                     className='nav-link'
                                     href={{
                                         pathname: '/contact',
-                                        query: { slug: 'contact', title: 'Conatct' }
+                                        query: { title: 'Contact' },
                                     }}>Connect</Link>
                             </Nav>
                         </div>
