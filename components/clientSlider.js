@@ -2,10 +2,9 @@ import Image from 'next/Image';
 import Slider from "react-slick";
 
 // images 
-import Img1 from '../assets/images/img_clIent_1.jpg'
-import Img2 from '../assets/images/img_clIent_2.jpg'
-import Img3 from '../assets/images/img_clIent_3.jpg'
-import Img4 from '../assets/images/img_clIent_4.jpg'
+import ClientImg from '../utils/clients.json'
+
+const basePath = '/assets/images/Client/'
 
 export const ClientSlider = () => {
     var settings = {
@@ -46,10 +45,7 @@ export const ClientSlider = () => {
 
     return (
         <Slider {...settings}>
-            <div><Image src={Img1} className="img-fluid" /></div>
-            <div><Image src={Img2} className="img-fluid" /></div>
-            <div><Image src={Img3} className="img-fluid" /></div>
-            <div><Image src={Img4} className="img-fluid" /></div>
+            {ClientImg?.map((items, idx) => <div key={idx}><Image src={require(`../assets/images/Client/${items}`)} className="img-fluid" /></div>)}
         </Slider>
     )
 }

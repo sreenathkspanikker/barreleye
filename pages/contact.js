@@ -43,7 +43,7 @@ export default function Contact() {
                             <p>Sargam, Thodiyoor North PO,<br />Karunagapall, Kollam, <br />Kerala. 690523</p>
                         </div>
                         <div className='list'>
-                            <a href="https://www.google.com/maps/search/Sargam,+Thodiyoor+North+PO,+Karunagapall,+Kollam,+Kerala.+690523/@9.06276,76.5158528,13z/data=!3m1!4b1" target="_blank"><i className='icon-pin animate__animated animate__infinite animate__wobble' /> Locate Us</a>
+                            <a href="https://www.google.com/maps/search/Sargam,+Thodiyoor+North+PO,+Karunagapall,+Kollam,+Kerala.+690523/@9.06276,76.5158528,13z/data=!3m1!4b1" target="_blank"><i className='icon-pin' /> Locate Us</a>
                         </div>
                     </div>
                 </Col>

@@ -6,7 +6,7 @@ export const SET_VALUES = (key, data) => {
   };
   
   // GET VALUES
-  export const GET_VALUES = (key) => JSON.parse(localStorage.getItem(key));
+  export const GET_VALUES = (key) => JSON.parse(sessionStorage.getItem(key));
   
   // REMOVE VALUES
   export const REMOVE_VALUES = (key) => localStorage.removeItem(key);

@@ -1,44 +1,44 @@
+import { useState, useEffect } from 'react'
+import { useRouter } from 'next/router'
+import Image from 'next/Image';
 import { Col, Figure, Row } from 'react-bootstrap'
 import { Fade } from 'react-reveal';
 import Link from 'next/link'
 import { Section } from '../components'
 
-export default function PageList() {
+// Jobs
+import IT from '../utils/jobs/it.json'
+import Other from '../utils/jobs/other.json'
 
-  const data = [
-    {
-      title: "Aviation Transport",
-      image: "https://picsum.photos/id/327/400/250"
-    },
-    {
-      title: "Chemistry and Chemical Technology",
-      image: "https://picsum.photos/id/328/400/250"
-    },
-    {
-      title: "Civil Engineering",
-      image: "https://picsum.photos/id/329/400/250"
-    },
-    {
-      title: "Aviation Transport",
-      image: "https://picsum.photos/id/400/400/250"
-    },
-    {
-      title: "Aviation Transport",
-      image: "https://picsum.photos/id/401/400/250"
-    },
-    {
-      title: "Aviation Transport",
-      image: "https://picsum.photos/id/402/400/250"
-    },
-    {
-      title: "Aviation Transport",
-      image: "https://picsum.photos/id/403/400/250"
-    },
-    {
-      title: "Aviation Transport",
-      image: "https://picsum.photos/id/404/400/250"
-    },
-  ]
+// Courses
+import Bachelors from '../utils/courses/bachelors.json'
+import Masters from '../utils/courses/masters.json'
+import PHD from '../utils/courses/phd.json'
+
+export default function PageList() {
+  const [data, setData] = useState([]);
+  const router = useRouter();
+  const { title } = router.query;
+
+  useEffect(() => {
+    setData(() => {
+      switch (title) {
+        case 'IT':
+          return IT
+        case 'Other':
+          return Other
+        case 'Bachelors Program':
+          return Bachelors
+        case 'Masters Program':
+          return Masters
+        case 'PHD':
+          return PHD
+        default:
+          break;
+      }
+    })
+  }, [title])
+
 
   return (
     <Section>
@@ -47,13 +47,14 @@ export default function PageList() {
           <Col sm={4} key={idx}>
             <Link href={{
               pathname: '/details',
-              query: { slug: idx, title: items.title }}}
+              query: { slug: idx, title: items.title }
+            }}
             >
               <Fade bottom  >
-              <Figure>
-                <Figure.Image src={items.image} />
-                <Figure.Caption>{items.title}</Figure.Caption>
-              </Figure>
+                <Figure>
+                  <Image src={require(`../assets/images/${items.image}`)} className="img-fluid" />
+                  <Figure.Caption>{items.title}</Figure.Caption>
+                </Figure>
               </Fade>
             </Link>
           </Col>

@@ -51,77 +51,85 @@ export const Header = () => {
                                     <Link className='nav-link' href="/">
                                         <i className='icon icon-youtube' />
                                     </Link>
-    
+
                                 </Nav>
                             }
 
                             <Nav className="ml-auto">
                                 <NavDropdown title="Courses" id="dropdown-1">
-                                    <Link 
-                                        className='nav-link' 
+                                    <Link
+                                        as="data-rr-ui-dropdown-item"
+                                        className='nav-link'
                                         href={{
                                             pathname: '/list',
                                             query: { slug: 'bachelors', title: 'Bachelors Program' }
-                                    }} > Bachelors </Link>
-                                    <Link 
-                                        className='nav-link' 
+                                        }} > <NavDropdown.Item as="span">Bachelors</NavDropdown.Item>
+                                    </Link>
+                                    <Link
+                                        className='nav-link'
                                         href={{
                                             pathname: '/list',
                                             query: { slug: 'masters', title: 'Masters Program' }
-                                    }} > Masters </Link>
-                                    <Link 
-                                        className='nav-link' 
+                                        }} > <NavDropdown.Item as="span">Masters</NavDropdown.Item>
+                                    </Link>
+                                    <Link
+                                        className='nav-link'
                                         href={{
                                             pathname: '/list',
                                             query: { slug: 'phd', title: 'PHD' },
-                                        }} > PHD </Link>
+                                        }} > <NavDropdown.Item as="span">PHD</NavDropdown.Item>
+                                    </Link>
                                 </NavDropdown>
 
                                 <NavDropdown title="Jobs" id="dropdown-2">
-                                    <Link 
-                                        className='nav-link' 
+                                    <Link
+                                        className='nav-link'
                                         href={{
                                             pathname: '/list',
                                             query: { slug: 'IT', title: 'IT' },
-                                        }} > IT </Link>
-                                    <Link 
-                                        className='nav-link' 
+                                        }} > <NavDropdown.Item as="span">IT</NavDropdown.Item>
+                                    </Link>
+                                    <Link
+                                        className='nav-link'
                                         href={{
                                             pathname: '/list',
                                             query: { slug: 'Other', title: 'Other' },
-                                        }} > Other </Link>
+                                        }} > <NavDropdown.Item as="span">Other</NavDropdown.Item>
+                                    </Link>
                                 </NavDropdown>
 
-                                <Link 
-                                    className='nav-link' 
+                                <Link
+                                    className='nav-link'
                                     href={{
                                         pathname: '/list',
                                         query: { slug: 'place_to_visit', title: 'Places to visit' },
                                     }}>Places to visit</Link>
 
                                 <NavDropdown title="Other services" id="dropdown-3">
-                                    <Link 
-                                        className='nav-link' 
+                                    <Link
+                                        className='nav-link'
                                         href={{
                                             pathname: '/list',
                                             query: { slug: 'Career_Guidance', title: 'Career Guidance' },
-                                        }}> Career Guidance </Link>
-                                    <Link 
-                                        className='nav-link' 
+                                        }}> <NavDropdown.Item as="span">Career Guidance</NavDropdown.Item>
+                                    </Link>
+                                    <Link
+                                        className='nav-link'
                                         href={{
                                             pathname: '/list',
                                             query: { slug: 'Online_Trainings', title: 'Online Trainings' },
-                                        }}> Online Trainings </Link>
+                                        }}> <NavDropdown.Item as="span">Online Trainings</NavDropdown.Item>
+                                    </Link>
                                 </NavDropdown>
 
-                                <Link 
-                                    className='nav-link' 
+                                <Link
+                                    className='nav-link'
                                     href={{
                                         pathname: '/faq',
                                         query: { slug: 'faq', title: 'FAQ' }
                                     }}>FAQ</Link>
-                                <Link 
-                                    className='nav-link'                                     
+                                <Link
+                                    className='nav-link'
                                     href={{
                                         pathname: '/contact',
                                         query: { slug: 'contact', title: 'Conatct' }

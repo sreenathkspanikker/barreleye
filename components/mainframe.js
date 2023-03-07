@@ -1,8 +1,7 @@
 import { useEffect, useState, useRef } from 'react'
 import { Fade } from 'react-reveal';
 import { useRouter } from 'next/router'
-import { Container, Carousel } from "react-bootstrap"
-import ImgOne from '../assets/images/bg-mainframe.jpg'
+import { Container } from "react-bootstrap"
 
 export const Mainframe = ({ Component }) => {
     const [pageTitle, setTitle] = useState("")

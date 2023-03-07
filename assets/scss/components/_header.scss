@@ -55,6 +55,10 @@
                             color: #3e3e3e;
                             font-size: 14px;
                             opacity: 1 !important;
+                            > span{
+                                padding: 0;
+                                background: transparent !important;
+                            }
                             &:hover{
                                 background-color: rgba($primary_color, 0.2);
                             }
