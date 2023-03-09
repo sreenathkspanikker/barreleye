@@ -31,7 +31,7 @@ export const Header = () => {
             <Navbar expand="lg">
                 <Container>
                     <Link className='navbar-brand' href="/">
-                        <Image src={Logo} />
+                        <Image src={Logo} alt={"Logo"} />
                     </Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">

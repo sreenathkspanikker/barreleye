@@ -40,7 +40,7 @@ export const CourseSlider = () => {
 
     const sliderCard = () => (
         <Card>
-            <Card.Img variant="top" src="https://picsum.photos/id/327/400/350" />
+            <Card.Img variant="top" src="https://picsum.photos/id/327/400/350" alt={'1'} />
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>

@@ -35,7 +35,7 @@ export default function Details() {
                                     <Col sm={4}>
                                         <div className="box box-1">
                                             <Figure>
-                                                <Figure.Image src="https://picsum.photos/id/659/300/300" />
+                                                <Figure.Image src="https://picsum.photos/id/659/300/300" alt={"1"} />
                                                 <Figure.Caption>
                                                     <i className="icon-youtube" />
                                                     Self introduction

@@ -10,7 +10,7 @@ export const MarchandiseSlider = () => {
                 <Row>
                     <Col md={6}>
                         <Figure>
-                            <Image className="d-block" src={Prod1} alt="First slide" />
+                            <Image className="d-block" src={Prod1} alt="First slide"/>
                         </Figure>
                     </Col>
                     <Col md={6}>
@@ -29,7 +29,7 @@ export const MarchandiseSlider = () => {
                 <Row>
                     <Col md={6}>
                         <Figure>
-                            <Image className="d-block" src={Prod1} alt="First slide" />
+                            <Image className="d-block" src={Prod1} alt="First slide"/>
                         </Figure>
                     </Col>
                     <Col md={6}>

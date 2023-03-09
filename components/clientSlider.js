@@ -4,8 +4,6 @@ import Slider from "react-slick";
 // images 
 import ClientImg from '../utils/clients.json'
 
-const basePath = '/assets/images/Client/'
-
 export const ClientSlider = () => {
     var settings = {
         dots: true,
@@ -45,7 +43,7 @@ export const ClientSlider = () => {
 
     return (
         <Slider {...settings}>
-            {ClientImg?.map((items, idx) => <div key={idx}><Image src={require(`../assets/images/Client/${items}`)} className="img-fluid" /></div>)}
+            {ClientImg?.map((items, idx) => <div key={idx}><Image src={require(`../assets/images/Client/${items}`)} className="img-fluid" alt={idx}/></div>)}
         </Slider>
     )
 }
