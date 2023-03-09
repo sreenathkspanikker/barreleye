@@ -2,7 +2,7 @@ import Head from 'next/head';
 import { WelcomeModal } from '../modules'
 import { Header, Mainframe, Footer, WhatsApp } from './'
 
-export const Layout = ({ children, Component }) => {
+export const Layout = ({ children, className }) => {
     return (
         <>
             <Head>
@@ -10,10 +10,10 @@ export const Layout = ({ children, Component }) => {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <main className={`app-layout ${Component}`}>
+            <main className={`app-layout ${className}`}>
                 <Header />
                 <div className='app-content'>
-                    <Mainframe Component={Component}/>
+                    <Mainframe className={className}/>
                     {children}
                 </div>
                 <Footer />

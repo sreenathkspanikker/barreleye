@@ -57,7 +57,7 @@
 }
 
 // HOME
-.Home {
+.page-home {
     .app-mainframe{
         height: 100vh;
         &::before{
@@ -157,7 +157,7 @@
 }
 
 // PAGE LIST
-.PageList{
+.page-list{
     .app-mainframe{
         background: url('../../images/bg_bachelors.jpg');
         background-repeat: no-repeat;
@@ -167,7 +167,7 @@
 }
 
 // DETAILS
-.Details{
+.page-details{
     .app-mainframe{
         background: url('../../images/bg_details.jpg');
         background-repeat: no-repeat;
@@ -177,7 +177,7 @@
 }
 
 // DETAILS
-.ApplyNow{
+.page-apply-now{
     .app-mainframe{
         background: url('../../images/bg_apply.jpg');
         background-repeat: no-repeat;
@@ -187,7 +187,7 @@
 }
 
 // FAQ
-.Faq{
+.page-faq{
     .app-mainframe{
         background: url('../../images/bg_faq.jpg');
         background-repeat: no-repeat;
@@ -197,7 +197,7 @@
 }
 
 // CONATCT
-.Contact{
+.page-conatct{
     .app-mainframe{
         background: url('../../images/bg_contact.jpg');
         background-repeat: no-repeat;
@@ -207,7 +207,7 @@
 }
 
 // PLACES TO VISIT
-.PlaceToVisit{
+.page-place-visit{
     .app-mainframe{
         background: url('../../images/bg_places.jpg');
         background-repeat: no-repeat;

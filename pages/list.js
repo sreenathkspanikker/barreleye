@@ -3,8 +3,7 @@ import { useRouter } from 'next/router'
 import Image from 'next/image';
 import { Col, Figure, Row } from 'react-bootstrap'
 import { Fade } from 'react-reveal';
-import Link from 'next/link'
-import { Section } from '../components'
+import { Layout, Section } from '../components'
 import { SET_VALUES } from '../middleware'
 
 // Jobs
@@ -52,33 +51,35 @@ export default function PageList() {
     fetchData();
 
   }, [title])
-  
+
 
 
   return (
-    <Section>
-      <Row>
-        {data?.map((items, idx) => (
-          <Col sm={4} key={idx}>
-            <a
-              onClick={() => {
-                SET_VALUES('item_id', items.id)
-                router.push({
-                  pathname: path,
-                  query: { slug: items.id, title: items.title }
-                })
-              }}
-            >
-              <Fade bottom  >
-                <Figure>
-                  <Image src={require(`../assets/images/${items.image}`)} className="img-fluid" alt={`title-${idx}`} />
-                  <Figure.Caption>{items.title}</Figure.Caption>
-                </Figure>
-              </Fade>
-            </a>
-          </Col>
-        ))}
-      </Row>
-    </Section>
+    <Layout className="page-list">
+      <Section>
+        <Row>
+          {data?.map((items, idx) => (
+            <Col sm={4} key={idx}>
+              <a
+                onClick={() => {
+                  SET_VALUES('item_id', items.id)
+                  router.push({
+                    pathname: path,
+                    query: { slug: items.id, title: items.title }
+                  })
+                }}
+              >
+                <Fade bottom  >
+                  <Figure>
+                    <Image src={require(`../assets/images/${items.image}`)} className="img-fluid" alt={`title-${idx}`} />
+                    <Figure.Caption>{items.title}</Figure.Caption>
+                  </Figure>
+                </Fade>
+              </a>
+            </Col>
+          ))}
+        </Row>
+      </Section>
+    </Layout>
   )
 }

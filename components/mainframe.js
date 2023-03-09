@@ -3,18 +3,16 @@ import { Fade } from 'react-reveal';
 import { useRouter } from 'next/router'
 import { Container } from "react-bootstrap"
 
-export const Mainframe = ({ Component }) => {
+export const Mainframe = ({ className }) => {
     const [pageTitle, setTitle] = useState("");
     const router = useRouter()
     const { title } = router.query
 
-    useEffect(() => { setTitle(title);}, [title, Component]);
-
-    console.log({Component});
+    useEffect(() => { setTitle(title) }, [title]);
 
     return (
         <div className="app-mainframe">
-            {Component === 'Home' ?
+            {className === 'page-home' ?
                 <div className='video-wrap'>
                     <Container>
                         <div className='contet-box'>

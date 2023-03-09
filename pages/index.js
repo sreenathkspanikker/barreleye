@@ -1,12 +1,12 @@
 
 import {Fade} from 'react-reveal';
 import { Row, Col } from 'react-bootstrap'
-import { Section, Title, CourseSlider, ClientSlider, MarchandiseSlider } from '../components'
+import { Layout, Section, Title, CourseSlider, ClientSlider, MarchandiseSlider } from '../components'
 
-function Home() {
+export default function Home() {
 
   return (
-    <>
+    <Layout className="page-home">
       {/* Why Barreleye */}
       <Section className="section-about" id="about">
         <Row className="justify-content-md-center">
@@ -53,10 +53,7 @@ function Home() {
           </Col>
         </Row>
       </Section>
-    </>
+    </Layout>
   )
 }
-
-Home.displayName = "Home"
-export default Home;
 
