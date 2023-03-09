@@ -4,15 +4,19 @@ import { useRouter } from 'next/router'
 import { Container } from "react-bootstrap"
 
 export const Mainframe = ({ Component }) => {
-    const [pageTitle, setTitle] = useState("")
+    const [pageTitle, setTitle] = useState("");
+    const [pageComponents, setComponent] = useState("");
     const router = useRouter()
     const { title } = router.query
 
-    useEffect(() => { setTitle(title) }, [title, Component]);
+    useEffect(() => { 
+        setTitle(title);
+        setComponent(Component) 
+    }, [title, Component]);
 
     return (
         <div className="app-mainframe">
-            {Component === 'Home' ?
+            {pageComponents === 'Home' ?
                 <div className='video-wrap'>
                     <Container>
                         <div className='contet-box'>
