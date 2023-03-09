@@ -3,7 +3,7 @@ import {Fade} from 'react-reveal';
 import { Row, Col } from 'react-bootstrap'
 import { Section, Title, CourseSlider, ClientSlider, MarchandiseSlider } from '../components'
 
-export default function Home() {
+function Home() {
 
   return (
     <>
@@ -58,3 +58,5 @@ export default function Home() {
 }
 
 Home.displayName = "Home"
+export default Home;
+
