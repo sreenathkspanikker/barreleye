@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'
-import Image from 'next/Image';
+import Image from 'next/image';
 import { Col, Figure, Row } from 'react-bootstrap'
 import { Fade } from 'react-reveal';
 import Link from 'next/link'

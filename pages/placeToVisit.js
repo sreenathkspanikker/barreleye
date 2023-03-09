@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import Image from 'next/Image';
+import Image from 'next/image';
 import { Row, Col, Figure } from 'react-bootstrap';
 import { Fade } from 'react-reveal';
 import { useRouter } from 'next/router'
