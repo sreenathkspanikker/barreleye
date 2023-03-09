@@ -1,41 +1,49 @@
 [
     {
         "id": 1,
-        "title": "Phd Aviation Transport",
+        "category": "phd",
+        "title": "phd Aviation Transport",
         "image": "Jobs/IT/img_demo.jpg"
     },
     {
         "id": 2,
+        "category": "phd",
         "title": "Chemistry and Chemical Technology",
         "image": "Jobs/IT/img_demo.jpg"
     },
     {
         "id": 3,
+        "category": "phd",
         "title": "Civil Engineering",
         "image": "Jobs/IT/img_demo.jpg"
     },
     {
         "id": 4,
+        "category": "phd",
         "title": "Aviation Transport",
         "image": "Jobs/IT/img_demo.jpg"
     },
     {
         "id": 5,
+        "category": "phd",
         "title": "Aviation Transport",
         "image": "Jobs/IT/img_demo.jpg"
     },
     {
         "id": 6,
+        "category": "phd",
         "title": "Aviation Transport",
         "image": "Jobs/IT/img_demo.jpg"
     },
     {
         "id": 7,
+        "category": "phd",
         "title": "Aviation Transport",
         "image": "Jobs/IT/img_demo.jpg"
     },
     {
         "id": 8,
+        "category": "phd",
         "title": "Aviation Transport",
         "image": "Jobs/IT/img_demo.jpg"
     }

@@ -1,41 +1,49 @@
 [
     {
         "id": 1,
-        "title": "Masters Aviation Transport",
+        "category": "masters",
+        "title": "masters Aviation Transport",
         "image": "Jobs/IT/img_demo.jpg"
     },
     {
         "id": 2,
+        "category": "masters",
         "title": "Chemistry and Chemical Technology",
         "image": "Jobs/IT/img_demo.jpg"
     },
     {
         "id": 3,
+        "category": "masters",
         "title": "Civil Engineering",
         "image": "Jobs/IT/img_demo.jpg"
     },
     {
         "id": 4,
+        "category": "masters",
         "title": "Aviation Transport",
         "image": "Jobs/IT/img_demo.jpg"
     },
     {
         "id": 5,
+        "category": "masters",
         "title": "Aviation Transport",
         "image": "Jobs/IT/img_demo.jpg"
     },
     {
         "id": 6,
+        "category": "masters",
         "title": "Aviation Transport",
         "image": "Jobs/IT/img_demo.jpg"
     },
     {
         "id": 7,
+        "category": "masters",
         "title": "Aviation Transport",
         "image": "Jobs/IT/img_demo.jpg"
     },
     {
         "id": 8,
+        "category": "masters",
         "title": "Aviation Transport",
         "image": "Jobs/IT/img_demo.jpg"
     }

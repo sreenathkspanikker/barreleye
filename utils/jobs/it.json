@@ -1,41 +1,49 @@
 [
     {
         "id": 1,
-        "title": "IT Aviation Transport",
+        "category": "it",
+        "title": "it Aviation Transport",
         "image": "Jobs/IT/img_demo.jpg"
     },
     {
         "id": 2,
+        "category": "it",
         "title": "Chemistry and Chemical Technology",
         "image": "Jobs/IT/img_demo.jpg"
     },
     {
         "id": 3,
+        "category": "it",
         "title": "Civil Engineering",
         "image": "Jobs/IT/img_demo.jpg"
     },
     {
         "id": 4,
+        "category": "it",
         "title": "Aviation Transport",
         "image": "Jobs/IT/img_demo.jpg"
     },
     {
         "id": 5,
+        "category": "it",
         "title": "Aviation Transport",
         "image": "Jobs/IT/img_demo.jpg"
     },
     {
         "id": 6,
+        "category": "it",
         "title": "Aviation Transport",
         "image": "Jobs/IT/img_demo.jpg"
     },
     {
         "id": 7,
+        "category": "it",
         "title": "Aviation Transport",
         "image": "Jobs/IT/img_demo.jpg"
     },
     {
         "id": 8,
+        "category": "it",
         "title": "Aviation Transport",
         "image": "Jobs/IT/img_demo.jpg"
     }
