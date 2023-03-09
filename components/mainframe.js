@@ -5,18 +5,16 @@ import { Container } from "react-bootstrap"
 
 export const Mainframe = ({ Component }) => {
     const [pageTitle, setTitle] = useState("");
-    const [pageComponents, setComponent] = useState("");
     const router = useRouter()
     const { title } = router.query
 
-    useEffect(() => { 
-        setTitle(title);
-        setComponent(Component) 
-    }, [title, Component]);
+    useEffect(() => { setTitle(title);}, [title, Component]);
+
+    console.log({Component});
 
     return (
         <div className="app-mainframe">
-            {pageComponents === 'Home' ?
+            {Component === 'Home' ?
                 <div className='video-wrap'>
                     <Container>
                         <div className='contet-box'>

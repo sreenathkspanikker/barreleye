@@ -56,3 +56,5 @@ export default function Home() {
     </>
   )
 }
+
+Home.displayName = "Home"
