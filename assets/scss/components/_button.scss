@@ -16,4 +16,18 @@
             background-color: rgba($secondary_color, 0.5);
         }
     }
+    &.btn-secondary{
+        padding: 0.5rem;
+        display: flex;
+        align-items: center;
+        background-color: rgba($primary_color, 1);
+        > i{
+            font-size: 16px;
+            line-height: 1;
+            margin-right: 0.5rem;
+        }
+        &:hover{
+            background-color: rgba($primary_color, 0.5);
+        }
+    }
 }

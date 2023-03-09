@@ -5,6 +5,7 @@ import { Col, Figure, Row } from 'react-bootstrap'
 import { Fade } from 'react-reveal';
 import Link from 'next/link'
 import { Section } from '../components'
+import { SET_VALUES } from '../middleware'
 
 // Jobs
 import IT from '../utils/jobs/it.json'
@@ -51,18 +52,22 @@ export default function PageList() {
     fetchData();
 
   }, [title])
+  
 
 
   return (
     <Section>
-      {console.log({path})}
       <Row>
         {data?.map((items, idx) => (
           <Col sm={4} key={idx}>
-            <Link href={{
-              pathname: path,
-              query: { slug: items.id, title: items.title }
-            }}
+            <a
+              onClick={() => {
+                SET_VALUES('item_id', items.id)
+                router.push({
+                  pathname: path,
+                  query: { slug: items.id, title: items.title }
+                })
+              }}
             >
               <Fade bottom  >
                 <Figure>
@@ -70,7 +75,7 @@ export default function PageList() {
                   <Figure.Caption>{items.title}</Figure.Caption>
                 </Figure>
               </Fade>
-            </Link>
+            </a>
           </Col>
         ))}
       </Row>

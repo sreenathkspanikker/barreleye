@@ -4,9 +4,6 @@ import Link from 'next/link'
 import { Navbar, Container, NavDropdown, Nav } from 'react-bootstrap';
 import Logo from "../assets/images/logo.svg";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSmileBeam } from '@fortawesome/free-solid-svg-icons'
-
 export const Header = () => {
     // const [scrollDirection, setScrollDirection] = useState(null);
     const [scrollActive, setScrollActive] = useState(null);

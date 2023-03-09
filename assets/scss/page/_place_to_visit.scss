@@ -1,0 +1,21 @@
+.section-place-to-visit{
+    p{
+        margin-bottom: 1rem;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+    .items{
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px solid rgba(black, 0.1);
+        &:last-child{
+            padding: 0;
+            margin: 0;
+            border: 0;
+        }
+        p, address{
+            color: #8c8c8c;
+        }
+    }
+}
