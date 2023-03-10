@@ -30,8 +30,7 @@ export default function Contact() {
     };
 
     return (
-        <Layout className="page-conatct">
-            <Section className="section-conatct-one">
+        <Layout className="page-contact">
                 <Row>
                     <Col sm={5}>
                         <div className='contact-content'>
@@ -120,7 +119,6 @@ export default function Contact() {
                         </Form>
                     </Col>
                 </Row>
-            </Section>
         </Layout>
     );
 };

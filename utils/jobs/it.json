@@ -3,48 +3,184 @@
         "id": 1,
         "category": "it",
         "title": "it Aviation Transport",
-        "image": "Jobs/IT/img_demo.jpg"
+        "image": "Jobs/IT/img_demo.jpg",
+        "details": {
+            "location": "Location",
+            "postedOn": "Posted on",
+            "description": "Tieto Germany is a subsidiary of Tietoevry Oyi, the largest Northern European IT service companywith 24,000 employees around the globe. Tietoevry has been represented in Germany since 2000 and we meet a variety of challenges with our advanced IT services and solutions: from ERP and production solutions to holistic optimization models for the workplace of the future as well as business intelligence and infrastructure services. With our smart products, digital services and mobile solutions, we open up new sales opportunities for our customers, increase customer satisfaction, optimize sales and design future workplaces inspired by social media. We believe in professional development and results by supporting our clients on their journey to a meaningful digital future. At Tieto Germany, our development and consulting portfolio ranges from industry solutions and data-driven business to customer experience management and SAP services for digital consulting and transformation. With 97 experts and an office in Regensburg, Tieto Germany is committed to the satisfaction of our customers every day.",
+            "skills": [
+                "You have a bachelor's or master's degree and are related to IT or software development",
+                "You have a bachelor's or master's degree and are related to IT or software development",
+                "You have a bachelor's or master's degree and are related to IT or software development"
+            ],
+            "weOffer": [
+                "A permanent job in an experienced team",
+                "A permanent job in an experienced team",
+                "A permanent job in an experienced team"
+            ],
+            "about": "Tietoevry creates purposeful technology that reinvents the world for good. We are a leading technology company with a strong Nordic heritage and global capabilities. Based on our core values of openness, trust and diversity, we work with our customers to develop digital futures where businesses, societies, and humanity thrive. Our 24,000 experts globally specialize in cloud, data, and software, serving thousands of enterprise and public-sector customers in more than 90 countries.",
+            "url": "http://www.tietoevry.com"
+        }
     },
     {
         "id": 2,
-        "category": "it",
-        "title": "Chemistry and Chemical Technology",
-        "image": "Jobs/IT/img_demo.jpg"
+        "category": "it",            
+        "title": "Chemistry and Chemical Technology 2",
+        "image": "Jobs/IT/img_demo.jpg",
+        "details": {
+            "location": "Location",
+            "postedOn": "Posted on",
+            "description": "Tieto Germany is a subsidiary of Tietoevry Oyi, the largest Northern European IT service companywith 24,000 employees around the globe. Tietoevry has been represented in Germany since 2000 and we meet a variety of challenges with our advanced IT services and solutions: from ERP and production solutions to holistic optimization models for the workplace of the future as well as business intelligence and infrastructure services. With our smart products, digital services and mobile solutions, we open up new sales opportunities for our customers, increase customer satisfaction, optimize sales and design future workplaces inspired by social media. We believe in professional development and results by supporting our clients on their journey to a meaningful digital future. At Tieto Germany, our development and consulting portfolio ranges from industry solutions and data-driven business to customer experience management and SAP services for digital consulting and transformation. With 97 experts and an office in Regensburg, Tieto Germany is committed to the satisfaction of our customers every day.",
+            "skills": [
+                "You have a bachelor's or master's degree and are related to IT or software development",
+                "You have a bachelor's or master's degree and are related to IT or software development",
+                "You have a bachelor's or master's degree and are related to IT or software development"
+            ],
+            "weOffer": [
+                "A permanent job in an experienced team",
+                "A permanent job in an experienced team",
+                "A permanent job in an experienced team"
+            ],
+            "about": "Tietoevry creates purposeful technology that reinvents the world for good. We are a leading technology company with a strong Nordic heritage and global capabilities. Based on our core values of openness, trust and diversity, we work with our customers to develop digital futures where businesses, societies, and humanity thrive. Our 24,000 experts globally specialize in cloud, data, and software, serving thousands of enterprise and public-sector customers in more than 90 countries.",
+            "url": "http://www.tietoevry.com"
+        }
     },
     {
         "id": 3,
         "category": "it",
-        "title": "Civil Engineering",
-        "image": "Jobs/IT/img_demo.jpg"
+        "title": "Civil Engineering 3",
+        "image": "Jobs/IT/img_demo.jpg",
+        "details": {
+            "location": "Location",
+            "postedOn": "Posted on",
+            "description": "Tieto Germany is a subsidiary of Tietoevry Oyi, the largest Northern European IT service companywith 24,000 employees around the globe. Tietoevry has been represented in Germany since 2000 and we meet a variety of challenges with our advanced IT services and solutions: from ERP and production solutions to holistic optimization models for the workplace of the future as well as business intelligence and infrastructure services. With our smart products, digital services and mobile solutions, we open up new sales opportunities for our customers, increase customer satisfaction, optimize sales and design future workplaces inspired by social media. We believe in professional development and results by supporting our clients on their journey to a meaningful digital future. At Tieto Germany, our development and consulting portfolio ranges from industry solutions and data-driven business to customer experience management and SAP services for digital consulting and transformation. With 97 experts and an office in Regensburg, Tieto Germany is committed to the satisfaction of our customers every day.",
+            "skills": [
+                "You have a bachelor's or master's degree and are related to IT or software development",
+                "You have a bachelor's or master's degree and are related to IT or software development",
+                "You have a bachelor's or master's degree and are related to IT or software development"
+            ],
+            "weOffer": [
+                "A permanent job in an experienced team",
+                "A permanent job in an experienced team",
+                "A permanent job in an experienced team"
+            ],
+            "about": "Tietoevry creates purposeful technology that reinvents the world for good. We are a leading technology company with a strong Nordic heritage and global capabilities. Based on our core values of openness, trust and diversity, we work with our customers to develop digital futures where businesses, societies, and humanity thrive. Our 24,000 experts globally specialize in cloud, data, and software, serving thousands of enterprise and public-sector customers in more than 90 countries.",
+            "url": "http://www.tietoevry.com"
+        }
     },
     {
         "id": 4,
         "category": "it",
         "title": "Aviation Transport",
-        "image": "Jobs/IT/img_demo.jpg"
+        "image": "Jobs/IT/img_demo.jpg",
+        "details": {
+            "location": "Location",
+            "postedOn": "Posted on",
+            "description": "Tieto Germany is a subsidiary of Tietoevry Oyi, the largest Northern European IT service companywith 24,000 employees around the globe. Tietoevry has been represented in Germany since 2000 and we meet a variety of challenges with our advanced IT services and solutions: from ERP and production solutions to holistic optimization models for the workplace of the future as well as business intelligence and infrastructure services. With our smart products, digital services and mobile solutions, we open up new sales opportunities for our customers, increase customer satisfaction, optimize sales and design future workplaces inspired by social media. We believe in professional development and results by supporting our clients on their journey to a meaningful digital future. At Tieto Germany, our development and consulting portfolio ranges from industry solutions and data-driven business to customer experience management and SAP services for digital consulting and transformation. With 97 experts and an office in Regensburg, Tieto Germany is committed to the satisfaction of our customers every day.",
+            "skills": [
+                "You have a bachelor's or master's degree and are related to IT or software development",
+                "You have a bachelor's or master's degree and are related to IT or software development",
+                "You have a bachelor's or master's degree and are related to IT or software development"
+            ],
+            "weOffer": [
+                "A permanent job in an experienced team",
+                "A permanent job in an experienced team",
+                "A permanent job in an experienced team"
+            ],
+            "about": "Tietoevry creates purposeful technology that reinvents the world for good. We are a leading technology company with a strong Nordic heritage and global capabilities. Based on our core values of openness, trust and diversity, we work with our customers to develop digital futures where businesses, societies, and humanity thrive. Our 24,000 experts globally specialize in cloud, data, and software, serving thousands of enterprise and public-sector customers in more than 90 countries.",
+            "url": "http://www.tietoevry.com"
+        }
     },
     {
         "id": 5,
         "category": "it",
         "title": "Aviation Transport",
-        "image": "Jobs/IT/img_demo.jpg"
+        "image": "Jobs/IT/img_demo.jpg",
+        "details": {
+            "location": "Location",
+            "postedOn": "Posted on",
+            "description": "Tieto Germany is a subsidiary of Tietoevry Oyi, the largest Northern European IT service companywith 24,000 employees around the globe. Tietoevry has been represented in Germany since 2000 and we meet a variety of challenges with our advanced IT services and solutions: from ERP and production solutions to holistic optimization models for the workplace of the future as well as business intelligence and infrastructure services. With our smart products, digital services and mobile solutions, we open up new sales opportunities for our customers, increase customer satisfaction, optimize sales and design future workplaces inspired by social media. We believe in professional development and results by supporting our clients on their journey to a meaningful digital future. At Tieto Germany, our development and consulting portfolio ranges from industry solutions and data-driven business to customer experience management and SAP services for digital consulting and transformation. With 97 experts and an office in Regensburg, Tieto Germany is committed to the satisfaction of our customers every day.",
+            "skills": [
+                "You have a bachelor's or master's degree and are related to IT or software development",
+                "You have a bachelor's or master's degree and are related to IT or software development",
+                "You have a bachelor's or master's degree and are related to IT or software development"
+            ],
+            "weOffer": [
+                "A permanent job in an experienced team",
+                "A permanent job in an experienced team",
+                "A permanent job in an experienced team"
+            ],
+            "about": "Tietoevry creates purposeful technology that reinvents the world for good. We are a leading technology company with a strong Nordic heritage and global capabilities. Based on our core values of openness, trust and diversity, we work with our customers to develop digital futures where businesses, societies, and humanity thrive. Our 24,000 experts globally specialize in cloud, data, and software, serving thousands of enterprise and public-sector customers in more than 90 countries.",
+            "url": "http://www.tietoevry.com"
+        }
     },
     {
         "id": 6,
         "category": "it",
         "title": "Aviation Transport",
-        "image": "Jobs/IT/img_demo.jpg"
+        "image": "Jobs/IT/img_demo.jpg",
+        "details": {
+            "location": "Location",
+            "postedOn": "Posted on",
+            "description": "Tieto Germany is a subsidiary of Tietoevry Oyi, the largest Northern European IT service companywith 24,000 employees around the globe. Tietoevry has been represented in Germany since 2000 and we meet a variety of challenges with our advanced IT services and solutions: from ERP and production solutions to holistic optimization models for the workplace of the future as well as business intelligence and infrastructure services. With our smart products, digital services and mobile solutions, we open up new sales opportunities for our customers, increase customer satisfaction, optimize sales and design future workplaces inspired by social media. We believe in professional development and results by supporting our clients on their journey to a meaningful digital future. At Tieto Germany, our development and consulting portfolio ranges from industry solutions and data-driven business to customer experience management and SAP services for digital consulting and transformation. With 97 experts and an office in Regensburg, Tieto Germany is committed to the satisfaction of our customers every day.",
+            "skills": [
+                "You have a bachelor's or master's degree and are related to IT or software development",
+                "You have a bachelor's or master's degree and are related to IT or software development",
+                "You have a bachelor's or master's degree and are related to IT or software development"
+            ],
+            "weOffer": [
+                "A permanent job in an experienced team",
+                "A permanent job in an experienced team",
+                "A permanent job in an experienced team"
+            ],
+            "about": "Tietoevry creates purposeful technology that reinvents the world for good. We are a leading technology company with a strong Nordic heritage and global capabilities. Based on our core values of openness, trust and diversity, we work with our customers to develop digital futures where businesses, societies, and humanity thrive. Our 24,000 experts globally specialize in cloud, data, and software, serving thousands of enterprise and public-sector customers in more than 90 countries.",
+            "url": "http://www.tietoevry.com"
+        }
     },
     {
         "id": 7,
         "category": "it",
         "title": "Aviation Transport",
-        "image": "Jobs/IT/img_demo.jpg"
+        "image": "Jobs/IT/img_demo.jpg",
+        "details": {
+            "location": "Location",
+            "postedOn": "Posted on",
+            "description": "Tieto Germany is a subsidiary of Tietoevry Oyi, the largest Northern European IT service companywith 24,000 employees around the globe. Tietoevry has been represented in Germany since 2000 and we meet a variety of challenges with our advanced IT services and solutions: from ERP and production solutions to holistic optimization models for the workplace of the future as well as business intelligence and infrastructure services. With our smart products, digital services and mobile solutions, we open up new sales opportunities for our customers, increase customer satisfaction, optimize sales and design future workplaces inspired by social media. We believe in professional development and results by supporting our clients on their journey to a meaningful digital future. At Tieto Germany, our development and consulting portfolio ranges from industry solutions and data-driven business to customer experience management and SAP services for digital consulting and transformation. With 97 experts and an office in Regensburg, Tieto Germany is committed to the satisfaction of our customers every day.",
+            "skills": [
+                "You have a bachelor's or master's degree and are related to IT or software development",
+                "You have a bachelor's or master's degree and are related to IT or software development",
+                "You have a bachelor's or master's degree and are related to IT or software development"
+            ],
+            "weOffer": [
+                "A permanent job in an experienced team",
+                "A permanent job in an experienced team",
+                "A permanent job in an experienced team"
+            ],
+            "about": "Tietoevry creates purposeful technology that reinvents the world for good. We are a leading technology company with a strong Nordic heritage and global capabilities. Based on our core values of openness, trust and diversity, we work with our customers to develop digital futures where businesses, societies, and humanity thrive. Our 24,000 experts globally specialize in cloud, data, and software, serving thousands of enterprise and public-sector customers in more than 90 countries.",
+            "url": "http://www.tietoevry.com"
+        }
     },
     {
         "id": 8,
         "category": "it",
         "title": "Aviation Transport",
-        "image": "Jobs/IT/img_demo.jpg"
+        "image": "Jobs/IT/img_demo.jpg",
+        "details": {
+            "location": "Location",
+            "postedOn": "Posted on",
+            "description": "Tieto Germany is a subsidiary of Tietoevry Oyi, the largest Northern European IT service companywith 24,000 employees around the globe. Tietoevry has been represented in Germany since 2000 and we meet a variety of challenges with our advanced IT services and solutions: from ERP and production solutions to holistic optimization models for the workplace of the future as well as business intelligence and infrastructure services. With our smart products, digital services and mobile solutions, we open up new sales opportunities for our customers, increase customer satisfaction, optimize sales and design future workplaces inspired by social media. We believe in professional development and results by supporting our clients on their journey to a meaningful digital future. At Tieto Germany, our development and consulting portfolio ranges from industry solutions and data-driven business to customer experience management and SAP services for digital consulting and transformation. With 97 experts and an office in Regensburg, Tieto Germany is committed to the satisfaction of our customers every day.",
+            "skills": [
+                "You have a bachelor's or master's degree and are related to IT or software development",
+                "You have a bachelor's or master's degree and are related to IT or software development",
+                "You have a bachelor's or master's degree and are related to IT or software development"
+            ],
+            "weOffer": [
+                "A permanent job in an experienced team",
+                "A permanent job in an experienced team",
+                "A permanent job in an experienced team"
+            ],
+            "about": "Tietoevry creates purposeful technology that reinvents the world for good. We are a leading technology company with a strong Nordic heritage and global capabilities. Based on our core values of openness, trust and diversity, we work with our customers to develop digital futures where businesses, societies, and humanity thrive. Our 24,000 experts globally specialize in cloud, data, and software, serving thousands of enterprise and public-sector customers in more than 90 countries.",
+            "url": "http://www.tietoevry.com"
+        }
     }
 ]

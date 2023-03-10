@@ -1,6 +1,37 @@
-.page-faq{
-    .faq-content{
+.page-faq {
+    .faq-content {
         max-width: 900px;
         margin: 0 auto;
+
+        .ant-collapse {
+            border: 0;
+            >.ant-collapse-item {
+                border: 0;
+                >.ant-collapse-header {
+                    display: flex;
+                    padding: 12px 0;
+                    border-radius: 0;
+                    align-items: center;
+                    background: white;
+                    border-bottom: 1px solid #d9d9d9;
+                    >.ant-collapse-header-text {
+                        font-size: 19px;
+                        font-weight: 600;
+                        color: $text_title_color;
+                    }
+                }
+                &.ant-collapse-item-active{
+                    >.ant-collapse-header {
+                        border-bottom-color: rgba($primary_color, 0.5);
+                        >.ant-collapse-header-text, .ant-collapse-arrow {
+                            color: $primary_color;
+                        }
+                    }
+                }
+            }
+            .ant-collapse-content{
+                border: 0;
+            }
+        }
     }
 }

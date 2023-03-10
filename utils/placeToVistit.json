@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "category": "place-to-visit",
         "title": "Riga: Central Market Latvian Food Tour",
         "image": "Place_to_visit/img_demo.jpg",
         "details": {

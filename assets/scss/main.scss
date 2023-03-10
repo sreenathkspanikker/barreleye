@@ -16,11 +16,13 @@
 // COMPONENTS
 @import './components/button',
         './components/header',
+        './components/layout',
         './components/title',
         './components/footer',
         './components/section',
         './components/whatsApp',
-        './components/mainframe';
+        './components/mainframe',
+        './components/banner';
 
 
 // MODALS
@@ -32,5 +34,6 @@
         './page/list',
         './page/apply',
         './page/contact',
-        './page/details',
+        './page/job_details',
+        './page/corse_details',
         './page/place_to_visit';

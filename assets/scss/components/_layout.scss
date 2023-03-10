@@ -1,0 +1,12 @@
+.app-layout{
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 42px;
+    > .app-content{
+        > .container{
+            padding-top: 75px;
+            padding-bottom: 75px;
+        }
+    }
+}

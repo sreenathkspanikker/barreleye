@@ -1,6 +1,10 @@
 .app-footer {
     padding: 0.5rem 0;
     background-color: $primary_color;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     .container {
         p {
             text-align: center;

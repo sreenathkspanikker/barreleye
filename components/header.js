@@ -3,6 +3,8 @@ import Image from 'next/image';
 import Link from 'next/link'
 import { Navbar, Container, NavDropdown, Nav } from 'react-bootstrap';
 import Logo from "../assets/images/logo.svg";
+import globalConfig from "../utils/global.cong.json";
+import { Banner } from './'
 
 export const Header = () => {
     // const [scrollDirection, setScrollDirection] = useState(null);
@@ -26,8 +28,11 @@ export const Header = () => {
         }
     }, [scrollActive]);
 
+    console.log({globalConfig});
+
     return (
         <header className={`app-header ${scrollActive > 50 ? "scroll-active" : ""}`}>
+            {globalConfig?.banner?.enable && <Banner data={globalConfig?.banner} />}
             <Navbar expand="lg">
                 <Container>
                     <Link className='navbar-brand' href="/">
@@ -48,7 +53,6 @@ export const Header = () => {
                                     <Link className='nav-link' href="/">
                                         <i className='icon icon-youtube' />
                                     </Link>
-
                                 </Nav>
                             }
 
@@ -101,23 +105,12 @@ export const Header = () => {
                                         query: { slug: 'place_to_visit', title: 'Places to visit' },
                                     }}>Places to visit</Link>
 
-                                <NavDropdown title="Other services" id="dropdown-3">
-                                    <Link
-                                        className='nav-link'
-                                        href={{
-                                            pathname: '/list',
-                                            query: { slug: 'Career_Guidance', title: 'Career Guidance' },
-                                        }}> <NavDropdown.Item as="span">Career Guidance</NavDropdown.Item>
-                                    </Link>
-                                    <Link
-                                        className='nav-link'
-                                        href={{
-                                            pathname: '/list',
-                                            query: { slug: 'Online_Trainings', title: 'Online Trainings' },
-                                        }}> <NavDropdown.Item as="span">Online Trainings</NavDropdown.Item>
-                                    </Link>
-                                </NavDropdown>
-
+                                <Link
+                                    className='nav-link'
+                                    href={{
+                                        pathname: '/careerGuidance',
+                                        query: { title: 'Career Guidance' },
+                                    }}>Career Guidance</Link>
                                 <Link
                                     className='nav-link'
                                     href={{

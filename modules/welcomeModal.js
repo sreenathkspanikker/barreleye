@@ -1,26 +1,18 @@
-import { useState, useEffect } from "react"
 import { Button, Form, Row, Col } from "react-bootstrap"
-import { SET_VALUES, GET_VALUES } from "../middleware"
+import { SET_VALUES } from "../middleware"
 
-export const WelcomeModal = () => {
-  const [show, setShow] = useState(true);
-
-  useEffect(() => {
-    const res = GET_VALUES('welcome');
-    console.log({res});
-    if(res !== null) {
-      console.log({res});
-      setShow(res);
-    }
-  }, [])
+export const WelcomeModal = ({show}) => {
 
   const handleClick = () => {
-    SET_VALUES('welcome', false )
-    setShow(false)
+    SET_VALUES( 'welcome', false );
+    const modalEvent = new Event('ModalShow');
+    window.dispatchEvent(modalEvent);
   }
 
+  console.log({show});
+
   return (
-    <div className={`app-welcome-modal ${show ? 'enabled' : 'desabled'}`}>
+    <div className={`app-welcome-modal ${(show && show !== null) ? 'enabled' : 'desabled' }`}>
       <div className="content">
         <Button className="btn-close" onClick={handleClick}><i className="icon-cancel" /></Button>
         <h2>Where did you find us?</h2>

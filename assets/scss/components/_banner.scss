@@ -1,0 +1,16 @@
+.app-banner{
+    width: 100%;
+    background: #19c0d6;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    > i{
+        display: inline-block;
+        margin-right: 1rem;
+        font-style: normal;
+    }
+}
