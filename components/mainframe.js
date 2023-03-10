@@ -17,9 +17,9 @@ export const Mainframe = ({ className }) => {
                     <Container>
                         <div className='contet-box'>
                             <Fade bottom >
-                                <h4 className="brand-title">We take you in we make you win.</h4>
-                                <h3>Agnostision kide. Dekaligen nyr.</h3>
-                                <p>Antegt. Kroson multijöd. Oras kror. Diall prespelogi. Distansbatong bånegyment. Kvasin sens. Bojasa kaligen. Eurojamiligt igyganar. </p>
+                                <h4 className="brand-title">We take you in, we make you win.</h4>
+                                <h3>Veterinary Medicine</h3>
+                                <p>One Medicine - One Health' concept links human, animal and environmental health. At present this science is vital for animal protection, herd health, monitoring of widespread diseases and safe food production of animal origin. It is important for human health to provide careful monitoring of livestock health and emerging zoonotic diseases.</p>
                                 <a className="btn btn-primary" href="#about">Read more</a>
                             </Fade>
                         </div>

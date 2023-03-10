@@ -16,9 +16,9 @@ export const MarchandiseSlider = () => {
                     <Col md={6}>
                         <Carousel.Caption>
                             <Fade bottom  >
-                                <h3>Title</h3>
-                                <p>örem ipsum diasam hotörade påsm trinetik. Pårad soligt, kosam diren båskapet bel. Syngen skimma manas vattkoppsgodis, och disamma, oaktat plad mobilzombie. Trininar sper eller mikror även om dekanade konnetik. Supranyvinaen.</p>
-                                <h4>$140</h4>
+                                <h3>Barreleye Mug</h3>
+                                <p>Enjoy every sip of your coffee from our elgant and stylist Barreleye Cup.</p>
+                                <h4>$40</h4>
                                 <Button>Buy</Button>
                             </Fade>
                         </Carousel.Caption>
@@ -35,9 +35,9 @@ export const MarchandiseSlider = () => {
                     <Col md={6}>
                         <Carousel.Caption>
                             <Fade bottom  >
-                                <h3>Title</h3>
-                                <p>örem ipsum diasam hotörade påsm trinetik. Pårad soligt, kosam diren båskapet bel. Syngen skimma manas vattkoppsgodis, och disamma, oaktat plad mobilzombie. Trininar sper eller mikror även om dekanade konnetik. Supranyvinaen.</p>
-                                <h4>$140</h4>
+                                <h3>Barreleye T-Shirt</h3>
+                                <p>Show your pride with our brand printed quality T-shirts.</p>
+                                <h4>$100</h4>
                                 <Button>Buy</Button>
                             </Fade>
                         </Carousel.Caption>
