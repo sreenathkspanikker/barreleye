@@ -2,8 +2,8 @@
     {
         "id": 1,
         "category": "bachelors",
-        "title": "Masters Aviation Transport",
-        "image": "Courses/Masters/img_demo.jpg",
+        "title": "Aviation Transport",
+        "image": "Courses/Masters/img_masters_1.jpg",
         "detial": {
             "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
             "requirements": [
@@ -32,7 +32,7 @@
         "id": 2,
         "category": "bachelors",
         "title": "Chemistry and Chemical Technology",
-        "image": "Courses/Masters/img_demo.jpg",
+        "image": "Courses/Masters/img_masters_2.jpg",
         "detial": {
             "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
             "requirements": [
@@ -89,8 +89,8 @@
     {
         "id": 4,
         "category": "bachelors",
-        "title": "Aviation Transport",
-        "image": "Courses/Masters/img_demo.jpg",
+        "title": "Business Finance",
+        "image": "Courses/Masters/img_masters_4.jpg",
         "detial": {
             "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
             "requirements": [
@@ -118,8 +118,8 @@
     {
         "id": 5,
         "category": "bachelors",
-        "title": "Aviation Transport",
-        "image": "Courses/Masters/img_demo.jpg",
+        "title": "Business Information",
+        "image": "Courses/Masters/img_masters_5.jpg",
         "detial": {
             "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
             "requirements": [
@@ -147,7 +147,7 @@
     {
         "id": 6,
         "category": "bachelors",
-        "title": "Aviation Transport",
+        "title": "Civil Construction and Retail Management",
         "image": "Courses/Masters/img_demo.jpg",
         "detial": {
             "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
@@ -176,8 +176,8 @@
     {
         "id": 7,
         "category": "bachelors",
-        "title": "Aviation Transport",
-        "image": "Courses/Masters/img_demo.jpg",
+        "title": "Computer System",
+        "image": "Courses/Masters/img_masters_7.jpg",
         "detial": {
             "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
             "requirements": [
@@ -205,7 +205,36 @@
     {
         "id": 8,
         "category": "bachelors",
-        "title": "Aviation Transport",
+        "title": "Computerized Control of Electrical Technolgies",
+        "image": "Courses/Masters/img_demo.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in"
+            ],
+            "templates": {
+                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
+                "duration": "3 years (full-time)",
+                "tutionFee": "$5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 9,
+        "category": "bachelors",
+        "title": "Creative Industries and Growth Management",
         "image": "Courses/Masters/img_demo.jpg",
         "detial": {
             "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
