@@ -2,8 +2,8 @@
     {
         "id": 1,
         "category": "bachelors",
-        "title": "Bachelors Aviation Transport",
-        "image": "Jobs/IT/img_demo.jpg",
+        "title": "Economics",
+        "image": "Courses/Bachelors/img_bachelors_1.jpg",
         "detial": {
             "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
             "requirements": [
@@ -31,8 +31,8 @@
     {
         "id": 2,
         "category": "bachelors",
-        "title": "Chemistry and Chemical Technology",
-        "image": "Jobs/IT/img_demo.jpg",
+        "title": "Computer Systems",
+        "image": "Courses/Bachelors/img_bachelors_2.jpg",
         "detial": {
             "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
             "requirements": [
@@ -60,8 +60,8 @@
     {
         "id": 3,
         "category": "bachelors",
-        "title": "Civil Engineering",
-        "image": "Jobs/IT/img_demo.jpg",
+        "title": "Aviation Transport",
+        "image": "Courses/Bachelors/img_bachelors_3.jpg",
         "detial": {
             "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
             "requirements": [
@@ -89,8 +89,8 @@
     {
         "id": 4,
         "category": "bachelors",
-        "title": "Aviation Transport",
-        "image": "Jobs/IT/img_demo.jpg",
+        "title": "Electrical Engineering",
+        "image": "Courses/Bachelors/img_bachelors_4.jpg",
         "detial": {
             "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
             "requirements": [
@@ -118,8 +118,8 @@
     {
         "id": 5,
         "category": "bachelors",
-        "title": "Aviation Transport",
-        "image": "Jobs/IT/img_demo.jpg",
+        "title": "Entrepreneurship and Management",
+        "image": "Courses/Bachelors/img_bachelors_5.jpg",
         "detial": {
             "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
             "requirements": [
@@ -147,8 +147,8 @@
     {
         "id": 6,
         "category": "bachelors",
-        "title": "Aviation Transport",
-        "image": "Jobs/IT/img_demo.jpg",
+        "title": "Maritime Transport Navigation",
+        "image": "Courses/Bachelors/img_bachelors_6.jpg",
         "detial": {
             "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
             "requirements": [
@@ -176,8 +176,8 @@
     {
         "id": 7,
         "category": "bachelors",
-        "title": "Aviation Transport",
-        "image": "Jobs/IT/img_demo.jpg",
+        "title": "Chemistry and Chemical Technology",
+        "image": "Courses/Bachelors/img_bachelors_7.jpg",
         "detial": {
             "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
             "requirements": [
@@ -205,8 +205,356 @@
     {
         "id": 8,
         "category": "bachelors",
-        "title": "Aviation Transport",
-        "image": "Jobs/IT/img_demo.jpg",
+        "title": "Civil Engineering",
+        "image": "Courses/Bachelors/img_bachelors_8.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in"
+            ],
+            "templates": {
+                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
+                "duration": "3 years (full-time)",
+                "tutionFee": "$5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 9,
+        "category": "bachelors",
+        "title": "Clothing and textilie technology",
+        "image": "Courses/Bachelors/img_bachelors_9.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in"
+            ],
+            "templates": {
+                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
+                "duration": "3 years (full-time)",
+                "tutionFee": "$5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 10,
+        "category": "bachelors",
+        "title": "Engineering technology, mechanics and mechanical engineering",
+        "image": "Courses/Bachelors/img_bachelors_10.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in"
+            ],
+            "templates": {
+                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
+                "duration": "3 years (full-time)",
+                "tutionFee": "$5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 11,
+        "category": "bachelors",
+        "title": "Environmental engineering",
+        "image": "Courses/Bachelors/img_bachelors_11.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in"
+            ],
+            "templates": {
+                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
+                "duration": "3 years (full-time)",
+                "tutionFee": "$5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 12,
+        "category": "bachelors",
+        "title": "Material engineering",
+        "image": "Courses/Bachelors/img_bachelors_12.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in"
+            ],
+            "templates": {
+                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
+                "duration": "3 years (full-time)",
+                "tutionFee": "$5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 13,
+        "category": "bachelors",
+        "title": "Management of international economic relation",
+        "image": "Courses/Bachelors/img_bachelors_13.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in"
+            ],
+            "templates": {
+                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
+                "duration": "3 years (full-time)",
+                "tutionFee": "$5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 14,
+        "category": "bachelors",
+        "title": "Medical engineering and physics",
+        "image": "Courses/Bachelors/img_bachelors_14.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in"
+            ],
+            "templates": {
+                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
+                "duration": "3 years (full-time)",
+                "tutionFee": "$5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 15,
+        "category": "bachelors",
+        "title": "Railway engineering",
+        "image": "Courses/Bachelors/img_bachelors_15.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in"
+            ],
+            "templates": {
+                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
+                "duration": "3 years (full-time)",
+                "tutionFee": "$5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 16,
+        "category": "bachelors",
+        "title": "Smart electronic systems",
+        "image": "Courses/Bachelors/img_bachelors_16.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in"
+            ],
+            "templates": {
+                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
+                "duration": "3 years (full-time)",
+                "tutionFee": "$5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 17,
+        "category": "bachelors",
+        "title": "Smart power system",
+        "image": "Courses/Bachelors/img_bachelors_17.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in"
+            ],
+            "templates": {
+                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
+                "duration": "3 years (full-time)",
+                "tutionFee": "$5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 18,
+        "category": "bachelors",
+        "title": "Technical translation",
+        "image": "Courses/Bachelors/img_bachelors_18.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in"
+            ],
+            "templates": {
+                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
+                "duration": "3 years (full-time)",
+                "tutionFee": "$5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 19,
+        "category": "bachelors",
+        "title": "Tele communication technologies and data transmission engineering",
+        "image": "Courses/Bachelors/img_bachelors_19.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in"
+            ],
+            "templates": {
+                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
+                "duration": "3 years (full-time)",
+                "tutionFee": "$5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 20,
+        "category": "bachelors",
+        "title": "Port and Shopping Management",
+        "image": "Courses/Bachelors/img_bachelors_20.jpg",
         "detial": {
             "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
             "requirements": [

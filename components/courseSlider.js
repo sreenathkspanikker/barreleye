@@ -42,10 +42,9 @@ export const CourseSlider = () => {
         <Card>
             <Card.Img variant="top" src="https://picsum.photos/id/327/400/350" alt={'1'} />
             <Card.Body>
-                <Card.Title>Card Title</Card.Title>
+                <Card.Title>Veterinary Medicine</Card.Title>
                 <Card.Text>
-                    Some quick example text to build on the card title and make up the
-                    bulk of the card's content.
+                The European's pet love and care are famous and thus makes this profession a high demanding across Europe.
                 </Card.Text>
                 <Button variant="primary">Read more</Button>
             </Card.Body>

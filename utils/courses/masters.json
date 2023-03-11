@@ -2,20 +2,22 @@
     {
         "id": 1,
         "category": "bachelors",
-        "title": "Masters Aviation Transport",
-        "image": "Courses/Masters/img_demo.jpg",
+        "title": "Aviation Transport",
+        "image": "Courses/Masters/img_masters_1.jpg",
         "detial": {
-            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "description": "Aviation and transport is a course that focuses on the study of transportation systems, with a particular emphasis on aviation. The course covers a wide range of topics related to aviation and transportation, including aircraft design, air traffic control, airport operations, logistics, and supply chain management.Students in this course typically study the principles of aerodynamics, aircraft systems, and aviation regulations. They may also learn about airport design, ground handling, and the management of air traffic control systems.",
             "requirements": [
-                "Cras justo odio",
-                "Dapibus ac facilisis in",
-                "Cras justo odio",
-                "Dapibus ac facilisis in",
-                "Cras justo odio",
-                "Dapibus ac facilisis in"
+                "Professional Bachelor Degree in Aviation Transport and /or 5th Level Professional Qualification in Aviation Transport (2 years).",
+                "Bachelor Degree of Engineering Science in Mechanical Engineering (for studies majoring in Aviation Transport) or Electrical Engineering (for studies majoring in Avionics) (3 years).",
+                "Passport",
+                "Passport size photograph",
+                "Medium of Instruction",
+                "Previous education certificates",
+                "Consolidated Marksheets",
+                "CV + Motivation Letter"
             ],
             "templates": {
-                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "description": "The resources below are the templates created for you to make a video on introduction about yourself, a full-fledged CV format and the motivation letter content hints. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
                 "youtube": "",
                 "cv": "",
                 "letter": ""
@@ -23,7 +25,7 @@
             "degree": {
                 "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
                 "duration": "3 years (full-time)",
-                "tutionFee": "$5000",
+                "tutionFee": "€5000",
                 "document": ""
             }
         }
@@ -32,19 +34,19 @@
         "id": 2,
         "category": "bachelors",
         "title": "Chemistry and Chemical Technology",
-        "image": "Courses/Masters/img_demo.jpg",
+        "image": "Courses/Masters/img_masters_2.jpg",
         "detial": {
             "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
             "requirements": [
-                "Cras justo odio",
-                "Dapibus ac facilisis in",
-                "Cras justo odio",
-                "Dapibus ac facilisis in",
-                "Cras justo odio",
-                "Dapibus ac facilisis in"
+                "Passport",
+                "Passport size photograph",
+                "Medium of Instruction",
+                "Previous education certificates",
+                "Consolidated Marksheets",
+                "CV + Motivation Letter"
             ],
             "templates": {
-                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "description": "The resources below are the templates created for you to make a video on introduction about yourself, a full-fledged CV format and the motivation letter content hints. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
                 "youtube": "",
                 "cv": "",
                 "letter": ""
@@ -52,7 +54,7 @@
             "degree": {
                 "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
                 "duration": "3 years (full-time)",
-                "tutionFee": "$5000",
+                "tutionFee": "€5000",
                 "document": ""
             }
         }
@@ -61,19 +63,19 @@
         "id": 3,
         "category": "bachelors",
         "title": "Civil Engineering",
-        "image": "Courses/Masters/img_demo.jpg",
+        "image": "Courses/Masters/img_masters_3.jpg",
         "detial": {
             "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
             "requirements": [
-                "Cras justo odio",
-                "Dapibus ac facilisis in",
-                "Cras justo odio",
-                "Dapibus ac facilisis in",
-                "Cras justo odio",
-                "Dapibus ac facilisis in"
+                "Passport",
+                "Passport size photograph",
+                "Medium of Instruction",
+                "Previous education certificates",
+                "Consolidated Marksheets",
+                "CV + Motivation Letter"
             ],
             "templates": {
-                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "description": "The resources below are the templates created for you to make a video on introduction about yourself, a full-fledged CV format and the motivation letter content hints. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
                 "youtube": "",
                 "cv": "",
                 "letter": ""
@@ -81,7 +83,7 @@
             "degree": {
                 "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
                 "duration": "3 years (full-time)",
-                "tutionFee": "$5000",
+                "tutionFee": "€5000",
                 "document": ""
             }
         }
@@ -89,20 +91,20 @@
     {
         "id": 4,
         "category": "bachelors",
-        "title": "Aviation Transport",
-        "image": "Courses/Masters/img_demo.jpg",
+        "title": "Business Finance",
+        "image": "Courses/Masters/img_masters_4.jpg",
         "detial": {
             "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
             "requirements": [
-                "Cras justo odio",
-                "Dapibus ac facilisis in",
-                "Cras justo odio",
-                "Dapibus ac facilisis in",
-                "Cras justo odio",
-                "Dapibus ac facilisis in"
+                "Passport",
+                "Passport size photograph",
+                "Medium of Instruction",
+                "Previous education certificates",
+                "Consolidated Marksheets",
+                "CV + Motivation Letter"
             ],
             "templates": {
-                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "description": "The resources below are the templates created for you to make a video on introduction about yourself, a full-fledged CV format and the motivation letter content hints. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
                 "youtube": "",
                 "cv": "",
                 "letter": ""
@@ -110,7 +112,7 @@
             "degree": {
                 "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
                 "duration": "3 years (full-time)",
-                "tutionFee": "$5000",
+                "tutionFee": "€5000",
                 "document": ""
             }
         }
@@ -118,20 +120,20 @@
     {
         "id": 5,
         "category": "bachelors",
-        "title": "Aviation Transport",
-        "image": "Courses/Masters/img_demo.jpg",
+        "title": "Business Information",
+        "image": "Courses/Masters/img_masters_5.jpg",
         "detial": {
             "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
             "requirements": [
-                "Cras justo odio",
-                "Dapibus ac facilisis in",
-                "Cras justo odio",
-                "Dapibus ac facilisis in",
-                "Cras justo odio",
-                "Dapibus ac facilisis in"
+                "Passport",
+                "Passport size photograph",
+                "Medium of Instruction",
+                "Previous education certificates",
+                "Consolidated Marksheets",
+                "CV + Motivation Letter"
             ],
             "templates": {
-                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "description": "The resources below are the templates created for you to make a video on introduction about yourself, a full-fledged CV format and the motivation letter content hints. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
                 "youtube": "",
                 "cv": "",
                 "letter": ""
@@ -139,7 +141,7 @@
             "degree": {
                 "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
                 "duration": "3 years (full-time)",
-                "tutionFee": "$5000",
+                "tutionFee": "€5000",
                 "document": ""
             }
         }
@@ -147,20 +149,20 @@
     {
         "id": 6,
         "category": "bachelors",
-        "title": "Aviation Transport",
-        "image": "Courses/Masters/img_demo.jpg",
+        "title": "Civil Construction and Retail Management",
+        "image": "Courses/Masters/img_masters_6.jpg",
         "detial": {
             "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
             "requirements": [
-                "Cras justo odio",
-                "Dapibus ac facilisis in",
-                "Cras justo odio",
-                "Dapibus ac facilisis in",
-                "Cras justo odio",
-                "Dapibus ac facilisis in"
+                "Passport",
+                "Passport size photograph",
+                "Medium of Instruction",
+                "Previous education certificates",
+                "Consolidated Marksheets",
+                "CV + Motivation Letter"
             ],
             "templates": {
-                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "description": "The resources below are the templates created for you to make a video on introduction about yourself, a full-fledged CV format and the motivation letter content hints. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
                 "youtube": "",
                 "cv": "",
                 "letter": ""
@@ -168,7 +170,7 @@
             "degree": {
                 "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
                 "duration": "3 years (full-time)",
-                "tutionFee": "$5000",
+                "tutionFee": "€5000",
                 "document": ""
             }
         }
@@ -176,20 +178,20 @@
     {
         "id": 7,
         "category": "bachelors",
-        "title": "Aviation Transport",
-        "image": "Courses/Masters/img_demo.jpg",
+        "title": "Computer Systems",
+        "image": "Courses/Masters/img_masters_7.jpg",
         "detial": {
             "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
             "requirements": [
-                "Cras justo odio",
-                "Dapibus ac facilisis in",
-                "Cras justo odio",
-                "Dapibus ac facilisis in",
-                "Cras justo odio",
-                "Dapibus ac facilisis in"
+                "Passport",
+                "Passport size photograph",
+                "Medium of Instruction",
+                "Previous education certificates",
+                "Consolidated Marksheets",
+                "CV + Motivation Letter"
             ],
             "templates": {
-                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "description": "The resources below are the templates created for you to make a video on introduction about yourself, a full-fledged CV format and the motivation letter content hints. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
                 "youtube": "",
                 "cv": "",
                 "letter": ""
@@ -197,7 +199,7 @@
             "degree": {
                 "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
                 "duration": "3 years (full-time)",
-                "tutionFee": "$5000",
+                "tutionFee": "€5000",
                 "document": ""
             }
         }
@@ -205,20 +207,20 @@
     {
         "id": 8,
         "category": "bachelors",
-        "title": "Aviation Transport",
-        "image": "Courses/Masters/img_demo.jpg",
+        "title": "Computerized Control of Electrical Technolgies",
+        "image": "Courses/Masters/img_masters_8.jpg",
         "detial": {
             "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
             "requirements": [
-                "Cras justo odio",
-                "Dapibus ac facilisis in",
-                "Cras justo odio",
-                "Dapibus ac facilisis in",
-                "Cras justo odio",
-                "Dapibus ac facilisis in"
+                "Passport",
+                "Passport size photograph",
+                "Medium of Instruction",
+                "Previous education certificates",
+                "Consolidated Marksheets",
+                "CV + Motivation Letter"
             ],
             "templates": {
-                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "description": "The resources below are teh templates created for you to make video on Introdction about yourself, a full-fledged CV format and the motivation letter. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
                 "youtube": "",
                 "cv": "",
                 "letter": ""
@@ -226,7 +228,239 @@
             "degree": {
                 "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
                 "duration": "3 years (full-time)",
-                "tutionFee": "$5000",
+                "tutionFee": "€5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 9,
+        "category": "bachelors",
+        "title": "Creative Industries and Growth Management",
+        "image": "Courses/Masters/img_masters_9.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Passport",
+                "Passport size photograph",
+                "Medium of Instruction",
+                "Previous education certificates",
+                "Consolidated Marksheets",
+                "CV + Motivation Letter"
+            ],
+            "templates": {
+                "description": "The resources below are teh templates created for you to make video on Introdction about yourself, a full-fledged CV format and the motivation letter. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
+                "duration": "2 years (full-time)",
+                "tutionFee": "€5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 10,
+        "category": "bachelors",
+        "title": "Cyber Security Engineering",
+        "image": "Courses/Masters/img_masters_10.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Passport",
+                "Passport size photograph",
+                "Medium of Instruction",
+                "Previous education certificates",
+                "Consolidated Marksheets",
+                "CV + Motivation Letter"
+            ],
+            "templates": {
+                "description": "The resources below are teh templates created for you to make video on Introdction about yourself, a full-fledged CV format and the motivation letter. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
+                "duration": "2 years (full-time)",
+                "tutionFee": "€5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 11,
+        "category": "bachelors",
+        "title": "Design Engineering",
+        "image": "Courses/Masters/img_masters_11.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Passport",
+                "Passport size photograph",
+                "Medium of Instruction",
+                "Previous education certificates",
+                "Consolidated Marksheets",
+                "CV + Motivation Letter"
+            ],
+            "templates": {
+                "description": "The resources below are teh templates created for you to make video on Introdction about yourself, a full-fledged CV format and the motivation letter. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
+                "duration": "2 years (full-time)",
+                "tutionFee": "€5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 12,
+        "category": "bachelors",
+        "title": "Digital Humanities",
+        "image": "Courses/Masters/img_masters_12.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Passport",
+                "Passport size photograph",
+                "Medium of Instruction",
+                "Previous education certificates",
+                "Consolidated Marksheets",
+                "CV + Motivation Letter"
+            ],
+            "templates": {
+                "description": "The resources below are teh templates created for you to make video on Introdction about yourself, a full-fledged CV format and the motivation letter. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
+                "duration": "2 years (full-time)",
+                "tutionFee": "€5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 13,
+        "category": "bachelors",
+        "title": "Economics",
+        "image": "Courses/Masters/img_masters_13.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Passport",
+                "Passport size photograph",
+                "Medium of Instruction",
+                "Previous education certificates",
+                "Consolidated Marksheets",
+                "CV + Motivation Letter"
+            ],
+            "templates": {
+                "description": "The resources below are teh templates created for you to make video on Introdction about yourself, a full-fledged CV format and the motivation letter. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
+                "duration": "2 years (full-time)",
+                "tutionFee": "€5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 14,
+        "category": "bachelors",
+        "title": "Electrical Engineering (Adaptronics)",
+        "image": "Courses/Masters/img_masters_14.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Passport",
+                "Passport size photograph",
+                "Medium of Instruction",
+                "Previous education certificates",
+                "Consolidated Marksheets",
+                "CV + Motivation Letter"
+            ],
+            "templates": {
+                "description": "The resources below are teh templates created for you to make video on Introdction about yourself, a full-fledged CV format and the motivation letter. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
+                "duration": "2 years (full-time)",
+                "tutionFee": "€5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 15,
+        "category": "bachelors",
+        "title": "Engineering Technolgy, Mechanics and Mechanical Engineering",
+        "image": "Courses/Masters/img_masters_15.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Passport",
+                "Passport size photograph",
+                "Medium of Instruction",
+                "Previous education certificates",
+                "Consolidated Marksheets",
+                "CV + Motivation Letter"
+            ],
+            "templates": {
+                "description": "The resources below are teh templates created for you to make video on Introdction about yourself, a full-fledged CV format and the motivation letter. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
+                "duration": "2 years (full-time)",
+                "tutionFee": "€5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 16,
+        "category": "bachelors",
+        "title": "Entrepreneurship and Management",
+        "image": "Courses/Masters/img_masters_16.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Passport",
+                "Passport size photograph",
+                "Medium of Instruction",
+                "Previous education certificates",
+                "Consolidated Marksheets",
+                "CV + Motivation Letter"
+            ],
+            "templates": {
+                "description": " jkahja agjdgjahgdjagd  akfkagfkaj",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "Bachelor degree of Engineering Science in Environmental Engineering",
+                "duration": "2 years (full-time)",
+                "tutionFee": "€5000",
                 "document": ""
             }
         }
