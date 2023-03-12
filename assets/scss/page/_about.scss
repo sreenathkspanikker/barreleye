@@ -1,0 +1,99 @@
+.page-about {
+    .list-item {
+        margin-bottom: 2rem;
+
+        .figure {
+            padding-right: 1rem;
+
+            img {
+                border-radius: 8px;
+            }
+        }
+
+        &:nth-child(even) {
+            .figure {
+                padding: 0;
+                padding-left: 1rem;
+            }
+
+            .row {
+                flex-direction: row-reverse;
+            }
+        }
+
+        &:last-child {
+            margin: 0;
+        }
+
+        .app-title {
+            text-align: left;
+            margin-bottom: 1rem;
+            align-items: baseline;
+        }
+    }
+
+    .about-team {
+        padding-top: 75px;
+
+        .team-list {
+            display: flex;
+            position: relative;
+            justify-content: center;
+
+            .figure {
+                max-width: 145px;
+                position: relative;
+                text-align: center;
+                margin: 0 35px;
+
+                img {
+                    border-radius: 100%;
+                    border: 2px solid rgba($secondary_color, 0.3);
+                }
+
+                &:first-child,
+                &:last-child {
+                    margin-top: 160px;
+
+                    &::before {
+                        content: '';
+                        position: absolute;
+                        top: -50%;
+                        left: 0;
+                        right: 0;
+                        margin: 0 auto;
+                        height: 50%;
+                        width: 2px;
+                        background: rgba($secondary_color, 0.3);
+                    }
+
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        top: -50%;
+                        left: 50%;
+                        height: 2px;
+                        width: 100%;
+                        background: rgba($secondary_color, 0.3);
+                    }
+                }
+
+                &:last-child {
+                    &::after {
+                        right: 50%;
+                        left: auto;
+                    }
+                }
+
+                h3 {
+                    margin-top: 1rem;
+                    @include font-family($font-primary, 18px, $text_parah_color, 600, 1);
+                }
+
+                p {
+                    @include font-family($font-primary, 14px, $text_parah_color_1, 400, 1);
+                }
+            }
+        }
+    }
+}
