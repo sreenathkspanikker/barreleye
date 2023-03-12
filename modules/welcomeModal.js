@@ -9,8 +9,6 @@ export const WelcomeModal = ({show}) => {
     window.dispatchEvent(modalEvent);
   }
 
-  console.log({show});
-
   return (
     <div className={`app-welcome-modal ${(show && show !== null) ? 'enabled' : 'desabled' }`}>
       <div className="content">

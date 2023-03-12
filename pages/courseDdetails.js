@@ -1,11 +1,22 @@
 import { useEffect, useState } from 'react';
+import { useRouter } from 'next/router';
 import { Fade } from 'react-reveal';
 import Link from 'next/link'
-import { Col, Row, Figure, Button } from "react-bootstrap";
+import { Col, Row, Button } from "react-bootstrap";
 import { Layout } from "../components";
+import { fetchApi } from "../middleware";
 
 export default function CourseDetails() {
-    
+    const [data, setData] = useState({})
+    const router = useRouter();
+    const { slug } = router.query;
+
+    useEffect(() => {
+        const res = fetchApi(slug);
+        console.log({ res });
+        setData(res?.detial)
+    }, [])
+
     return (
         <Layout className="page-course-details">
             <Row>
@@ -13,39 +24,29 @@ export default function CourseDetails() {
                     <div className="block block-1">
                         <Fade bottom  >
                             <div className='details'>
-                                <p>Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon.
-                                    Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.
-                                </p>
+                                <p>{data?.description}</p>
                             </div>
 
                             <h5>Entry Requirements</h5>
                             <ol>
-                                <li>Cras justo odio</li>
-                                <li>Dapibus ac facilisis in</li>
-                                <li>Cras justo odio</li>
-                                <li>Dapibus ac facilisis in</li>
-                                <li>Cras justo odio</li>
-                                <li>Dapibus ac facilisis in</li>
+                                {data?.requirements?.map((items, i) => <li key={i}>{items}</li>)}
                             </ol>
                         </Fade>
                     </div>
                     <div className="block block-2">
                         <Fade bottom  >
                             <h5>Templates</h5>
-                            <p>Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde.</p>
+                            <p>{data?.templates?.description}</p>
                         </Fade>
                         <Fade bottom  >
                             <Row className="mt-4">
                                 <Col sm={4}>
-                                    <div className="box box-1">
-                                        <Figure>
-                                            <Figure.Image src="https://picsum.photos/id/659/300/300" alt={"1"} />
-                                            <Figure.Caption>
-                                                <i className="icon-youtube" />
-                                                Self introduction
-                                            </Figure.Caption>
-                                        </Figure>
-                                    </div>
+                                    <a className='link' href={data?.templates?.youtube} target="_blank">
+                                        <div className="box box-1">
+                                            <i className="icon-youtube" />
+                                            Self introduction
+                                        </div>
+                                    </a>
                                 </Col>
                                 <Col sm={4}>
                                     <div className="box box-2">
@@ -71,7 +72,7 @@ export default function CourseDetails() {
                                 </span>
                                 <div className="content">
                                     <h5>Degree awarded:</h5>
-                                    <p>Bachelor degree of Engineering Science in Environmental Engineering</p>
+                                    <p>{data?.degree?.awarded}</p>
                                 </div>
                             </div>
                             <div className="list">
@@ -80,7 +81,7 @@ export default function CourseDetails() {
                                 </span>
                                 <div className="content">
                                     <h5>Duration:</h5>
-                                    <p>3 years (full-time)</p>
+                                    <p>{data?.degree?.duration}</p>
                                 </div>
                             </div>
                             <div className="list">
@@ -89,7 +90,7 @@ export default function CourseDetails() {
                                 </span>
                                 <div className="content">
                                     <h5>Tuition Fee:</h5>
-                                    <p>$5000</p>
+                                    <p>{data?.degree?.tutionFee}</p>
                                 </div>
                             </div>
                             <Button><span><i className="icon-file-text-o" /></span>Explore the faculty</Button>

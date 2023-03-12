@@ -1,0 +1,152 @@
+[
+    {
+        "id": 1,
+        "category": "topCourses",
+        "title": "Title One",
+        "description": "The European's pet love and care are famous and thus makes this profession a high demanding across Europe.",
+        "image": "Courses/Bachelors/img_bachelors_1.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in"
+            ],
+            "templates": {
+                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "topCourses degree of Engineering Science in Environmental Engineering",
+                "duration": "3 years (full-time)",
+                "tutionFee": "$5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 2,
+        "category": "topCourses",
+        "title": "Title One",
+        "description": "The European's pet love and care are famous and thus makes this profession a high demanding across Europe.",
+        "image": "Courses/Bachelors/img_bachelors_2.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in"
+            ],
+            "templates": {
+                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "topCourses degree of Engineering Science in Environmental Engineering",
+                "duration": "3 years (full-time)",
+                "tutionFee": "$5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 3,
+        "category": "topCourses",
+        "title": "Title One",
+        "description": "The European's pet love and care are famous and thus makes this profession a high demanding across Europe.",
+        "image": "Courses/Bachelors/img_bachelors_3.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in"
+            ],
+            "templates": {
+                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "topCourses degree of Engineering Science in Environmental Engineering",
+                "duration": "3 years (full-time)",
+                "tutionFee": "$5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 4,
+        "category": "topCourses",
+        "title": "Title One",
+        "description": "The European's pet love and care are famous and thus makes this profession a high demanding across Europe.",
+        "image": "Courses/Bachelors/img_bachelors_4.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in"
+            ],
+            "templates": {
+                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "topCourses degree of Engineering Science in Environmental Engineering",
+                "duration": "3 years (full-time)",
+                "tutionFee": "$5000",
+                "document": ""
+            }
+        }
+    },
+    {
+        "id": 5,
+        "category": "topCourses",
+        "title": "Title One",
+        "description": "The European's pet love and care are famous and thus makes this profession a high demanding across Europe.",
+        "image": "Courses/Bachelors/img_bachelors_5.jpg",
+        "detial": {
+            "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv. Öde eböment trevis annonsblockerare fåde. Båledes hidoligt benat fang åde. Vilogi fagon. Ses heterosade en endosiv. Befapägen sosk josyheten presanas. Podåktigt mononing. Farar begt jag bens lågongen ore. Spebunde måhöck rorat utan spesm, vövaliga nena. Du kan vara drabbad.",
+            "requirements": [
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in",
+                "Cras justo odio",
+                "Dapibus ac facilisis in"
+            ],
+            "templates": {
+                "description": "Lörem ipsum deras pamåtigt timent anastat: utom knarkometer för atektig, sunat. Gudade exomålig egisk miska i päfapp i hexassade androsiv.",
+                "youtube": "",
+                "cv": "",
+                "letter": ""
+            },
+            "degree": {
+                "awarded": "topCourses degree of Engineering Science in Environmental Engineering",
+                "duration": "3 years (full-time)",
+                "tutionFee": "$5000",
+                "document": ""
+            }
+        }
+    }
+]

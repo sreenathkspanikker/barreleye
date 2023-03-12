@@ -7,7 +7,6 @@ import globalConfig from "../utils/global.cong.json";
 import { Banner } from './'
 
 export const Header = () => {
-    // const [scrollDirection, setScrollDirection] = useState(null);
     const [scrollActive, setScrollActive] = useState(null);
 
     useEffect(() => {
@@ -27,8 +26,6 @@ export const Header = () => {
             window.removeEventListener("scroll", updateScrollDirection); // clean up
         }
     }, [scrollActive]);
-
-    console.log({globalConfig});
 
     return (
         <header className={`app-header ${scrollActive > 50 ? "scroll-active" : ""}`}>
@@ -57,7 +54,14 @@ export const Header = () => {
                             }
 
                             <Nav className="ml-auto">
+                                <Link
+                                    className='nav-link'
+                                    href={{
+                                        pathname: '/about',
+                                        query: { slug: 'about', title: 'About' },
+                                    }}>About</Link>
                                 <NavDropdown title="Courses" id="dropdown-1">
+
                                     <Link
                                         className='nav-link'
                                         href={{

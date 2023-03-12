@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "category": "bachelors",
+        "category": "masters",
         "title": "Aviation Transport",
         "image": "Courses/Masters/img_masters_1.jpg",
         "detial": {
@@ -18,7 +18,7 @@
             ],
             "templates": {
                 "description": "The resources below are the templates created for you to make a video on introduction about yourself, a full-fledged CV format and the motivation letter content hints. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
-                "youtube": "",
+                "youtube": "https://www.youtube.com/watch?v=M1KEuCUr4zc",
                 "cv": "",
                 "letter": ""
             },
@@ -32,7 +32,7 @@
     },
     {
         "id": 2,
-        "category": "bachelors",
+        "category": "masters",
         "title": "Chemistry and Chemical Technology",
         "image": "Courses/Masters/img_masters_2.jpg",
         "detial": {
@@ -47,7 +47,7 @@
             ],
             "templates": {
                 "description": "The resources below are the templates created for you to make a video on introduction about yourself, a full-fledged CV format and the motivation letter content hints. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
-                "youtube": "",
+                "youtube": "https://www.youtube.com/watch?v=M1KEuCUr4zc",
                 "cv": "",
                 "letter": ""
             },
@@ -61,7 +61,7 @@
     },
     {
         "id": 3,
-        "category": "bachelors",
+        "category": "masters",
         "title": "Civil Engineering",
         "image": "Courses/Masters/img_masters_3.jpg",
         "detial": {
@@ -76,7 +76,7 @@
             ],
             "templates": {
                 "description": "The resources below are the templates created for you to make a video on introduction about yourself, a full-fledged CV format and the motivation letter content hints. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
-                "youtube": "",
+                "youtube": "https://www.youtube.com/watch?v=M1KEuCUr4zc",
                 "cv": "",
                 "letter": ""
             },
@@ -90,7 +90,7 @@
     },
     {
         "id": 4,
-        "category": "bachelors",
+        "category": "masters",
         "title": "Business Finance",
         "image": "Courses/Masters/img_masters_4.jpg",
         "detial": {
@@ -105,7 +105,7 @@
             ],
             "templates": {
                 "description": "The resources below are the templates created for you to make a video on introduction about yourself, a full-fledged CV format and the motivation letter content hints. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
-                "youtube": "",
+                "youtube": "https://www.youtube.com/watch?v=M1KEuCUr4zc",
                 "cv": "",
                 "letter": ""
             },
@@ -119,7 +119,7 @@
     },
     {
         "id": 5,
-        "category": "bachelors",
+        "category": "masters",
         "title": "Business Information",
         "image": "Courses/Masters/img_masters_5.jpg",
         "detial": {
@@ -134,7 +134,7 @@
             ],
             "templates": {
                 "description": "The resources below are the templates created for you to make a video on introduction about yourself, a full-fledged CV format and the motivation letter content hints. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
-                "youtube": "",
+                "youtube": "https://www.youtube.com/watch?v=M1KEuCUr4zc",
                 "cv": "",
                 "letter": ""
             },
@@ -148,7 +148,7 @@
     },
     {
         "id": 6,
-        "category": "bachelors",
+        "category": "masters",
         "title": "Civil Construction and Retail Management",
         "image": "Courses/Masters/img_masters_6.jpg",
         "detial": {
@@ -163,7 +163,7 @@
             ],
             "templates": {
                 "description": "The resources below are the templates created for you to make a video on introduction about yourself, a full-fledged CV format and the motivation letter content hints. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
-                "youtube": "",
+                "youtube": "https://www.youtube.com/watch?v=M1KEuCUr4zc",
                 "cv": "",
                 "letter": ""
             },
@@ -177,7 +177,7 @@
     },
     {
         "id": 7,
-        "category": "bachelors",
+        "category": "masters",
         "title": "Computer Systems",
         "image": "Courses/Masters/img_masters_7.jpg",
         "detial": {
@@ -192,7 +192,7 @@
             ],
             "templates": {
                 "description": "The resources below are the templates created for you to make a video on introduction about yourself, a full-fledged CV format and the motivation letter content hints. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
-                "youtube": "",
+                "youtube": "https://www.youtube.com/watch?v=M1KEuCUr4zc",
                 "cv": "",
                 "letter": ""
             },
@@ -206,7 +206,7 @@
     },
     {
         "id": 8,
-        "category": "bachelors",
+        "category": "masters",
         "title": "Computerized Control of Electrical Technolgies",
         "image": "Courses/Masters/img_masters_8.jpg",
         "detial": {
@@ -221,7 +221,7 @@
             ],
             "templates": {
                 "description": "The resources below are teh templates created for you to make video on Introdction about yourself, a full-fledged CV format and the motivation letter. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
-                "youtube": "",
+                "youtube": "https://www.youtube.com/watch?v=M1KEuCUr4zc",
                 "cv": "",
                 "letter": ""
             },
@@ -235,7 +235,7 @@
     },
     {
         "id": 9,
-        "category": "bachelors",
+        "category": "masters",
         "title": "Creative Industries and Growth Management",
         "image": "Courses/Masters/img_masters_9.jpg",
         "detial": {
@@ -250,7 +250,7 @@
             ],
             "templates": {
                 "description": "The resources below are teh templates created for you to make video on Introdction about yourself, a full-fledged CV format and the motivation letter. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
-                "youtube": "",
+                "youtube": "https://www.youtube.com/watch?v=M1KEuCUr4zc",
                 "cv": "",
                 "letter": ""
             },
@@ -264,7 +264,7 @@
     },
     {
         "id": 10,
-        "category": "bachelors",
+        "category": "masters",
         "title": "Cyber Security Engineering",
         "image": "Courses/Masters/img_masters_10.jpg",
         "detial": {
@@ -279,7 +279,7 @@
             ],
             "templates": {
                 "description": "The resources below are teh templates created for you to make video on Introdction about yourself, a full-fledged CV format and the motivation letter. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
-                "youtube": "",
+                "youtube": "https://www.youtube.com/watch?v=M1KEuCUr4zc",
                 "cv": "",
                 "letter": ""
             },
@@ -293,7 +293,7 @@
     },
     {
         "id": 11,
-        "category": "bachelors",
+        "category": "masters",
         "title": "Design Engineering",
         "image": "Courses/Masters/img_masters_11.jpg",
         "detial": {
@@ -308,7 +308,7 @@
             ],
             "templates": {
                 "description": "The resources below are teh templates created for you to make video on Introdction about yourself, a full-fledged CV format and the motivation letter. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
-                "youtube": "",
+                "youtube": "https://www.youtube.com/watch?v=M1KEuCUr4zc",
                 "cv": "",
                 "letter": ""
             },
@@ -322,7 +322,7 @@
     },
     {
         "id": 12,
-        "category": "bachelors",
+        "category": "masters",
         "title": "Digital Humanities",
         "image": "Courses/Masters/img_masters_12.jpg",
         "detial": {
@@ -337,7 +337,7 @@
             ],
             "templates": {
                 "description": "The resources below are teh templates created for you to make video on Introdction about yourself, a full-fledged CV format and the motivation letter. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
-                "youtube": "",
+                "youtube": "https://www.youtube.com/watch?v=M1KEuCUr4zc",
                 "cv": "",
                 "letter": ""
             },
@@ -351,7 +351,7 @@
     },
     {
         "id": 13,
-        "category": "bachelors",
+        "category": "masters",
         "title": "Economics",
         "image": "Courses/Masters/img_masters_13.jpg",
         "detial": {
@@ -366,7 +366,7 @@
             ],
             "templates": {
                 "description": "The resources below are teh templates created for you to make video on Introdction about yourself, a full-fledged CV format and the motivation letter. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
-                "youtube": "",
+                "youtube": "https://www.youtube.com/watch?v=M1KEuCUr4zc",
                 "cv": "",
                 "letter": ""
             },
@@ -380,7 +380,7 @@
     },
     {
         "id": 14,
-        "category": "bachelors",
+        "category": "masters",
         "title": "Electrical Engineering (Adaptronics)",
         "image": "Courses/Masters/img_masters_14.jpg",
         "detial": {
@@ -395,7 +395,7 @@
             ],
             "templates": {
                 "description": "The resources below are teh templates created for you to make video on Introdction about yourself, a full-fledged CV format and the motivation letter. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
-                "youtube": "",
+                "youtube": "https://www.youtube.com/watch?v=M1KEuCUr4zc",
                 "cv": "",
                 "letter": ""
             },
@@ -409,7 +409,7 @@
     },
     {
         "id": 15,
-        "category": "bachelors",
+        "category": "masters",
         "title": "Engineering Technolgy, Mechanics and Mechanical Engineering",
         "image": "Courses/Masters/img_masters_15.jpg",
         "detial": {
@@ -424,7 +424,7 @@
             ],
             "templates": {
                 "description": "The resources below are teh templates created for you to make video on Introdction about yourself, a full-fledged CV format and the motivation letter. Download the documents to create your own version. The motivation letter should be of length not less than 250 words.",
-                "youtube": "",
+                "youtube": "https://www.youtube.com/watch?v=M1KEuCUr4zc",
                 "cv": "",
                 "letter": ""
             },
@@ -438,7 +438,7 @@
     },
     {
         "id": 16,
-        "category": "bachelors",
+        "category": "masters",
         "title": "Entrepreneurship and Management",
         "image": "Courses/Masters/img_masters_16.jpg",
         "detial": {
@@ -453,7 +453,7 @@
             ],
             "templates": {
                 "description": " jkahja agjdgjahgdjagd  akfkagfkaj",
-                "youtube": "",
+                "youtube": "https://www.youtube.com/watch?v=M1KEuCUr4zc",
                 "cv": "",
                 "letter": ""
             },

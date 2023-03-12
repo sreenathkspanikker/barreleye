@@ -1,4 +1,5 @@
 
+import Link from 'next/link'
 import {Fade} from 'react-reveal';
 import { Row, Col } from 'react-bootstrap'
 import { Layout, Section, Title, CourseSlider, ClientSlider, MarchandiseSlider } from '../components'
@@ -21,6 +22,7 @@ As referred in our vision, our aim is to make the education to the new level cal
 an individual's ability on decision making, design thinking and implementation. 
 If you are ready to learn the new norm of learning, come and join us and let's paddle alongside.
               </p>
+              <Link className='nav-link' href="/about">Read more</Link>
               </Fade>
           </Col>
         </Row>
@@ -36,7 +38,7 @@ If you are ready to learn the new norm of learning, come and join us and let's p
       </Section>
 
       {/* Marchindise */}
-      <Section className="section-marchandaise">
+      {/* <Section className="section-marchandaise">
         <Title
           title="Marchandise"
           subTitle="We are now the emerging brand, which is in it's finest shape. Checkout our new products from our brandspace. Unfortunately, the service is only available in Kerala. 
@@ -44,7 +46,7 @@ If you are ready to learn the new norm of learning, come and join us and let's p
         />
 
         <MarchandiseSlider />
-      </Section>
+      </Section> */}
 
       {/* Marchindise */}
       <Section className="section-clients">

@@ -1,7 +1,13 @@
 import Slider from "react-slick";
+import Image from 'next/image';
+import { useRouter } from 'next/router'
 import { Card, Button } from 'react-bootstrap';
+import TOP_COURSES from '../utils/topCourses.json'
+import { SET_VALUES } from '../middleware'
 
 export const CourseSlider = () => {
+    const router = useRouter();
+
     var settings = {
         dots: false,
         infinite: false,
@@ -38,45 +44,30 @@ export const CourseSlider = () => {
         ]
     };
 
-    const sliderCard = () => (
-        <Card>
-            <Card.Img variant="top" src="https://picsum.photos/id/327/400/350" alt={'1'} />
-            <Card.Body>
-                <Card.Title>Veterinary Medicine</Card.Title>
-                <Card.Text>
-                The European's pet love and care are famous and thus makes this profession a high demanding across Europe.
-                </Card.Text>
-                <Button variant="primary">Read more</Button>
-            </Card.Body>
-        </Card>
-    )
-
     return (
         <Slider {...settings}>
-            <div>
-                {sliderCard()}
-            </div>
-            <div>
-                {sliderCard()}
-            </div>
-            <div>
-                {sliderCard()}
-            </div>
-            <div>
-                {sliderCard()}
-            </div>
-            <div>
-                {sliderCard()}
-            </div>
-            <div>
-                {sliderCard()}
-            </div>
-            <div>
-                {sliderCard()}
-            </div>
-            <div>
-                {sliderCard()}
-            </div>
+            {TOP_COURSES?.map((items, idx) => (
+                <div key={idx}>
+                    <Card>
+                        <Image variant="top" src={require(`../assets/images/${items?.image}`)} alt={idx} className="img-fluid" />
+                        <Card.Body>
+                            <Card.Title>{items?.title}</Card.Title>
+                            <Card.Text>
+                                {items?.description}
+                            </Card.Text>
+                            <Button variant="primary"
+                                onClick={() => {
+                                    SET_VALUES('item_id', items.id);
+                                    SET_VALUES('item_category', items.category);
+                                    router.push({
+                                        pathname: "/courseDdetails",
+                                        query: { slug: items.id, title: items.title }
+                                    })
+                                }}>Read more</Button>
+                        </Card.Body>
+                    </Card>
+                </div>
+            ))}
         </Slider>
     )
 }

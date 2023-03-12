@@ -1,53 +1,94 @@
 import React, { useState } from 'react';
-import { Form, Button, Row, Col } from 'react-bootstrap';
+import { Form, Button, Row, Col, ListGroup } from 'react-bootstrap';
 import axios from 'axios';
 import { Layout, Section } from "../components";
 
 export default function Contact() {
-    const [formData, setFormData] = useState({
-        firstName: '',
-        lastName: '',
-        phoneNumber: '',
-        emailAddress: '',
-        message: '',
-    });
+    // const [formData, setFormData] = useState({
+    //     firstName: '',
+    //     lastName: '',
+    //     phoneNumber: '',
+    //     emailAddress: '',
+    //     message: '',
+    // });
 
-    const { firstName, lastName, phoneNumber, emailAddress, message } = formData;
+    // const { firstName, lastName, phoneNumber, emailAddress, message } = formData;
 
-    const handleChange = (event) => {
-        setFormData({ ...formData, [event.target.name]: event.target.value });
-    };
+    // const handleChange = (event) => {
+    //     setFormData({ ...formData, [event.target.name]: event.target.value });
+    // };
 
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        axios.post('/api/contact', formData)
-            .then((response) => {
-                console.log(response);
-            })
-            .catch((error) => {
-                console.log(error);
-            });
-    };
+    // const handleSubmit = (event) => {
+    //     event.preventDefault();
+    //     axios.post('/api/contact', formData)
+    //         .then((response) => {
+    //             console.log(response);
+    //         })
+    //         .catch((error) => {
+    //             console.log(error);
+    //         });
+    // };
 
     return (
         <Layout className="page-contact">
-                <Row>
-                    <Col sm={5}>
-                        <div className='contact-content'>
-                            <h2>Want to learn more?</h2>
-                            <div className='list'>
-                                <h4>Address</h4>
-                                <h6>Latvia</h6>
-                                <p>Firsa Sadovnikova iela 19/5, <br />RIga. LV-1003</p>
-                                <h6>India</h6>
-                                <p>Sargam, Thodiyoor North PO,<br />Karunagapall, Kollam, <br />Kerala. 690523</p>
-                            </div>
-                            <div className='list'>
-                                <a href="https://www.google.com/maps/search/Sargam,+Thodiyoor+North+PO,+Karunagapall,+Kollam,+Kerala.+690523/@9.06276,76.5158528,13z/data=!3m1!4b1" target="_blank"><i className='icon-pin' /> Locate Us</a>
-                            </div>
+            <Row>
+                <Col sm={6}>
+                    <div className='content-box list'>
+                        <h4>In order to start the application process,  please send us the below documents to  <a href="mailto:study@barreleyesolutions.com">study@barreleyesolutions.com</a>. We will verify the documents are reach out to you in a day.</h4>
+                        <ListGroup>
+                            <ListGroup.Item>12th Certificate</ListGroup.Item>
+                            <ListGroup.Item>10th Certificate </ListGroup.Item>
+                            <ListGroup.Item>UG / PG Certificate</ListGroup.Item>
+                            <ListGroup.Item>UG / PG Consolidated mark sheet</ListGroup.Item>
+                            <ListGroup.Item>IELTS /TOEFL/MOI</ListGroup.Item>
+                            <ListGroup.Item>Passport</ListGroup.Item>
+                            <ListGroup.Item>Passport size photographs</ListGroup.Item>
+                        </ListGroup>
+                    </div>
+                </Col>
+                <Col sm={6}>
+                    <div className='content-box details'>
+                        <div className='account'>
+                            <h4>Bank Account</h4>
+                            <ListGroup>
+                                <ListGroup.Item>
+                                    <b>Account Name</b>
+                                    <span>ABU HARIS</span>
+                                </ListGroup.Item>
+                                <ListGroup.Item>
+                                    <b>Account No </b>
+                                    <span>BX909U849RU0OE</span>
+                                </ListGroup.Item>
+                                <ListGroup.Item>
+                                    <b>IFC</b>
+                                    <span>IF0001</span>
+                                </ListGroup.Item>
+                                <ListGroup.Item>
+                                    <b>Barnch</b>
+                                    <span>JSDHJKDLSDFK</span>
+                                </ListGroup.Item>
+                            </ListGroup>
                         </div>
-                    </Col>
-                    <Col sm={7}>
+                        <div className='list'>
+                            <h4>Location</h4>
+                            <address>
+                                <h5>Latvia</h5>
+                                <p>Firsa Sadovnikova iela 19/5, RIga. LV-1003</p>
+                            </address>
+                            <address>
+                                <h5>India</h5>
+                                <p>Sargam, Thodiyoor North PO, Karunagapall, Kollam, Kerala. 690523</p>
+                            </address>
+                        </div>
+                        <div className='list'>
+                            <a className='btn btn-primary' href="https://www.google.com/maps/search/Sargam,+Thodiyoor+North+PO,+Karunagapall,+Kollam,+Kerala.+690523/@9.06276,76.5158528,13z/data=!3m1!4b1" target="_blank"><i className='icon-pin' /> Locate Us</a>
+                        </div>
+
+                    </div>
+                </Col>
+
+
+                {/* <Col sm={7}>
                         <h2>Send a message</h2>
                         <Form onSubmit={handleSubmit}>
                             <Row>
@@ -117,8 +158,13 @@ export default function Contact() {
                                 Submit
                             </Button>
                         </Form>
-                    </Col>
-                </Row>
+                    </Col> */}
+            </Row>
+
+            <div className='mail_to'>
+                <h3>If you would like to get a free consultation, contact us on</h3>
+                <h4><a href="mailto:cunsult@barreleye.com">cunsult@barreleye.com</a></h4>
+            </div>
         </Layout>
     );
 };

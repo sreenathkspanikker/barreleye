@@ -19,19 +19,12 @@
         width: fit-content;
         background-color: white;
         padding: 0.5rem 1rem;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
-        color: $primary_color;
+        @include font-family($font-primary, 24px, $primary_color, 800, 1);
     }
 
     .mainframe-title{
-        font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 48px;
-        color: white;
         margin-bottom: 3rem;
+        @include font-family($font-primary, 48px, white, 700, 1);
     }
 
     .container{
@@ -41,16 +34,14 @@
         height: 100%;
         z-index: 2;
         h3{
-            font-family: 'Roboto';
-            font-weight: 700;
-            font-size: 48px;
-            color: white;
             margin-bottom: 1rem;
+            @include font-family($font-primary, 48px, white, 700, 1);
         }
         p{
             @extend h3;
             font-weight: normal;
-            font-size: 18px;
+            font-size: 16px;
+            line-height: 20px;
         }
     }
 
@@ -98,59 +89,6 @@
                 right: 0;
                 margin: 0 auto;
                 z-index: 1;
-            }
-        }
-        .carousel {
-            .carousel-inner{
-                .carousel-item{
-                    height: 100vh;
-                    background-repeat: no-repeat;
-                    background-position: center;
-                    background-size: cover;
-                    &::before{
-                        content: " ";
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        width: 100%;
-                        height: 100%;
-                        @include mainframeBg;
-                    }
-                    .container{
-                        position: relative;
-                        height: 100%;
-                        .carousel-caption{
-                            top: 0;
-                            bottom: 0;
-                            left: 0;
-                            right: auto;
-                            margin: auto 0;
-                            text-align: left;
-                            max-width: 60%;
-                            height: fit-content;
-                            h3{
-                                font-family: 'Roboto';
-                                font-style: normal;
-                                font-weight: 700;
-                                font-size: 65px;
-                                line-height: 65px;
-                            }
-                            p{
-                                font-family: 'Roboto';
-                                font-style: normal;
-                                font-weight: 400;
-                                font-size: 16px;
-                                line-height: 28px;
-                            }
-                            .btn{
-                                margin-top: 1.5rem;
-                            }
-                        }
-                    }
-                }
-            }
-            .carousel-control-prev, .carousel-control-next{
-                width: 5%;
             }
         }
     }

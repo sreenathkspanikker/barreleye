@@ -1,9 +1,5 @@
 .app-title{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 64px;
-    line-height: 75px;
+    @include font-family($font-primary, 56px, $text_title_color, 800, 1);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,10 +19,7 @@
     p{
         max-width: 80%;
         margin-top: 1rem;
-        font-size: 12px !important;
         text-align: center;
-        line-height: 26px;
-        font-weight: normal;
-        color: #9f9f9f;
+        @include font-family($font-primary, 14px, rgba($text_parah_color, 0.5), 400, 20px);
     }
 }

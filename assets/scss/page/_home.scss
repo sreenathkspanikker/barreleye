@@ -1,14 +1,22 @@
 .app-layout {
     &.page-home {
         .section-about {
+            text-align: center;
             p {
-                text-align: center;
+                @include font-family($font-primary, 16px, $text_parah_color, 400, 26px);
+            }
+            .nav-link{
+                padding: 1rem 0;
+                font-size: 21px;
+                display: inline-block;
+                text-decoration: underline;
+                &:hover{
+                    color: $secondary_color;
+                }
             }
         }
 
         .section-courses {
-            background: #F3F3F3;
-
             .slick-slide>div {
                 margin: 0 10px;
             }
@@ -54,11 +62,10 @@
                 transition: all ease .4s;
                 .card-body{
                     .card-title{
-                        font-size: 20px;
+                        @include font-family($font-primary, 20px, $text_title_color, 700, 1);
                     }
                     .card-text{
-                        font-size: 14px;
-                        line-height: 22px;
+                        @include font-family($font-primary, 14px, $text_parah_color, 700, 22px);
                     }
                     .btn{
                         width: 100%;

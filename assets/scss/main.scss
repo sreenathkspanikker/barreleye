@@ -11,7 +11,9 @@
 @import './core/normalize';
 
 // FONTS
-@import './fonts/icons';
+@import './fonts/icons', 
+        './fonts/poppins',
+        './fonts/IbarraRealNova';
 
 // COMPONENTS
 @import './components/button',
@@ -32,6 +34,7 @@
 @import './page/home', 
         './page/faq',
         './page/list',
+        './page/about',
         './page/apply',
         './page/contact',
         './page/job_details',
