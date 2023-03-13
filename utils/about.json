@@ -31,19 +31,22 @@
     ],
     "team": [
         {
-            "title": "Title",
-            "name": "Name 01",
-            "image": "About/img-team-1.png"
+            "title": "MD & Career Analyst",
+            "name": "Name 002",
+            "image": "About/img-team-1.png",
+            "url": "https://www.linkedin.com/in/abuharis-salih-99a537143/"
         },
         {
-            "title": "Title",
-            "name": "Name 02",
-            "image": "About/img-team-2.png"
+            "title": "CEO",
+            "name": "Abu Slih Haris",
+            "image": "About/img-team-2.png",
+            "url": "https://www.linkedin.com/in/abuharis-salih-99a537143/"
         },
         {
-            "title": "Title",
-            "name": "Name 03",
-            "image": "About/img-team-3.png"
+            "title": "Study Co-ordinator",
+            "name": "Name 003",
+            "image": "About/img-team-3.png",
+            "url": "https://www.linkedin.com/in/abuharis-salih-99a537143/"
         }
     ]
 }

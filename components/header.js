@@ -8,6 +8,7 @@ import { Banner } from './'
 
 export const Header = () => {
     const [scrollActive, setScrollActive] = useState(null);
+    const [bigMenu, setMenu] = useState(false);
 
     useEffect(() => {
         let lastScrollY = window.pageYOffset;
@@ -27,31 +28,31 @@ export const Header = () => {
         }
     }, [scrollActive]);
 
+    const handleClick = () => setMenu(bigMenu => !bigMenu)
+
     return (
-        <header className={`app-header ${scrollActive > 50 ? "scroll-active" : ""}`}>
+        <header className={`app-header ${scrollActive > 50 ? "scroll-active" : ""} ${bigMenu ? 'show' : 'hide'}`}>
             {globalConfig?.banner?.enable && <Banner data={globalConfig?.banner} />}
             <Navbar expand="lg">
                 <Container>
                     <Link className='navbar-brand' href="/">
                         <Image src={Logo} alt={"Logo"} />
                     </Link>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleClick} />
+                    <Navbar className="justify-content-end nav-main">
                         <div className='menu-wrap'>
 
-                            {scrollActive < 50 &&
-                                <Nav className="justify-content-end nav-social">
-                                    <Link className='nav-link' href="/">
-                                        <i className='icon icon-facebook' />
-                                    </Link>
-                                    <Link className='nav-link' href="/">
-                                        <i className='icon icon-linkedin' />
-                                    </Link>
-                                    <Link className='nav-link' href="/">
-                                        <i className='icon icon-youtube' />
-                                    </Link>
-                                </Nav>
-                            }
+                            <Nav className={`justify-content-end nav-social ${scrollActive < 50 ? 'show' : 'hide'}`}>
+                                <Link className='nav-link' href="/">
+                                    <i className='icon icon-facebook' />
+                                </Link>
+                                <Link className='nav-link' href="/">
+                                    <i className='icon icon-linkedin' />
+                                </Link>
+                                <Link className='nav-link' href="/">
+                                    <i className='icon icon-youtube' />
+                                </Link>
+                            </Nav>
 
                             <Nav className="ml-auto">
                                 <Link
@@ -129,7 +130,7 @@ export const Header = () => {
                                     }}>Connect</Link>
                             </Nav>
                         </div>
-                    </Navbar.Collapse>
+                    </Navbar>
                 </Container>
             </Navbar>
         </header>

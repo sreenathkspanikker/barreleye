@@ -41,6 +41,7 @@ export default function About() {
                                 alt="about" />
                             <h3>{items?.title}</h3>
                             <p>{items?.name}</p>
+                            <a className="btn btn-secondary" href={items.url} target="_blank">Read more</a>
                         </Figure>
                     ))}
                 </div>

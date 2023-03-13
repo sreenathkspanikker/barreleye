@@ -41,7 +41,7 @@
             justify-content: center;
 
             .figure {
-                max-width: 145px;
+                max-width: 160px;
                 position: relative;
                 text-align: center;
                 margin: 0 35px;
@@ -54,7 +54,7 @@
                 &:first-child,
                 &:last-child {
                     margin-top: 160px;
-
+                    
                     &::before {
                         content: '';
                         position: absolute;
@@ -87,11 +87,18 @@
 
                 h3 {
                     margin-top: 1rem;
-                    @include font-family($font-primary, 18px, $text_parah_color, 600, 1);
+                    @include font-family($font-primary, 14px, $text_parah_color, 600, 1);
                 }
 
                 p {
-                    @include font-family($font-primary, 14px, $text_parah_color_1, 400, 1);
+                    @include font-family($font-primary, 12px, $text_parah_color_1, 400, 1);
+                }
+
+                .btn{
+                    margin-top: 0.5rem;
+                    padding: 0.7rem 1rem;
+                    display: inline-block;
+                    @include font-family($font-primary, 10px, white, 400, 1);
                 }
             }
         }
