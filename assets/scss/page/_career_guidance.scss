@@ -1,0 +1,84 @@
+.page-career-guidance {
+    .title{
+        ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            list-style: none;
+            margin-bottom: 1rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid rgba($text_parah_color_1, 0.6);
+    
+            li {
+                font-size: 14px;
+                line-height: 1;
+                display: flex;
+    
+                i {
+                    font-size: 24px;
+                    margin-right: 1rem;
+                }
+    
+                b {
+                    display: block;
+                    margin-bottom: 6px;
+                }
+                .wrap{
+                    span {
+                        font-size: 12px;
+                        color: rgba($text_parah_color_1, 0.8);
+                    }
+                }
+    
+                &:last-child {
+                    padding-left: 2rem;
+                }
+            }
+        }
+    }
+    .description{
+        margin-bottom: 2rem;
+        ul{
+            margin: 0;
+            padding: 0;
+            margin-top: 2rem;
+            padding-left: 15px;
+            li{
+                @include font-family($font-primary, 16px, $text_parah_color_1, 400, 46px);
+            }
+        }
+    }
+    .more-details{
+        ul{
+            margin: 0;
+            padding: 0;
+            padding-left: 15px;
+            li{
+                @include font-family($font-primary, 16px, $text_parah_color_1, 400, 46px);
+            }
+        }
+    }
+    .user-profile{
+        .card{
+            text-align: center;
+            padding: 1rem;
+            img{
+                max-width: 110px;
+                margin: 0 auto;
+            }
+            .card-body{
+                padding: 0;
+                .card-title{
+                    margin-top: 1rem;
+                }
+                .card-text{
+                    font-size: 12px;
+                    margin-bottom: 1rem;
+                }
+            }
+            &.card-contact{
+                text-align: left;
+            }
+        }
+    }
+}
