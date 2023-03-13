@@ -76,13 +76,13 @@ export const Header = () => {
                                             query: { slug: 'masters', title: 'Masters Program' }
                                         }} > <NavDropdown.Item as="span">Masters</NavDropdown.Item>
                                     </Link>
-                                    <Link
+                                    {/* <Link
                                         className='nav-link'
                                         href={{
                                             pathname: '/list',
                                             query: { slug: 'phd', title: 'PHD' },
                                         }} > <NavDropdown.Item as="span">PHD</NavDropdown.Item>
-                                    </Link>
+                                    </Link> */}
                                 </NavDropdown>
 
                                 <NavDropdown title="Jobs" id="dropdown-2">

@@ -60,7 +60,7 @@ export default function CareerGuidance() {
                                     Some quick example text to build on the card title and make up the
                                     bulk of the card's content.
                                 </Card.Text>
-                                <Card.Link href="#">LinkedIn</Card.Link>
+                                <Card.Link href="https://www.linkedin.com/in/abuharis-salih-99a537143/" target="_blank">LinkedIn</Card.Link>
                                 <Card.Link href="#">FaceBook</Card.Link>
                             </Card.Body>
                         </Card>
